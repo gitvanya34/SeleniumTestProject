@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/formalize/78842
+{"error":{"error_code":1,"error_msg":"Заказ с ID 78842 не синхронизирован.","request_params":[]}}
+null

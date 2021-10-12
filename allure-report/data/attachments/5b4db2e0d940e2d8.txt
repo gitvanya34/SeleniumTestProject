@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/set-crmID/79053
+{"result":"OK","data":{"id":79053}}
+null

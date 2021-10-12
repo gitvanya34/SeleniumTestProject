@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.648 sec <<< FAILURE!
+filtrerVodohod(ru.qa.ui.TestVodohodAuto)  Time elapsed: 14.354 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at ru.qa.ui.pageobject.MainBookingCruise.fillform(MainBookingCruise.java:154)
+	at ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:18)
+

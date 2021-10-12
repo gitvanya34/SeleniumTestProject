@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/passengers/update/97451/712879
+{"error":{"error_code":400,"error_msg ":"У вас недостаточно прав для выполнения этого действия","request_params":{"mindboxID":"472053"}}}
+null

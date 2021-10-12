@@ -1,0 +1,3 @@
+https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_share_link?id=85255
+{"result":"\/share-booking\/?booking=065746873b5337ed3787ff9faeb9e7765ecca0bce6cf5368c5fd2af607cd54ca","time":{"start":1599117637.893425,"finish":1599117637.922088,"duration":0.028662919998168945,"processing":0.0023279190063476562,"date_start":"2020-09-03T10:20:37+03:00","date_finish":"2020-09-03T10:20:37+03:00"}}
+null

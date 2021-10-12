@@ -1,0 +1,3 @@
+https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null
+{"result":false,"time":{"start":1600772161.441083,"finish":1600772161.718352,"duration":0.2772691249847412,"processing":0.25406312942504883,"date_start":"2020-09-22T13:56:01+03:00","date_finish":"2020-09-22T13:56:01+03:00"}}
+null

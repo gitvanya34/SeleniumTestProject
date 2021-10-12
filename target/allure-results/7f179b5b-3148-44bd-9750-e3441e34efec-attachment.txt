@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/book-room
+{"error":{"error_code":1,"error_msg":"Каюта занята","request_params":{"motorship":"16","cruise":"11630","room":"715363","accommodation":"1","tariffs":{"297079":"1898510"}}}}
+null

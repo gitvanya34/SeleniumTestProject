@@ -1,0 +1,281 @@
+{
+  "uid" : "58f1cf1fdc970d45",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1598967822828,
+    "stop" : 1598967836883,
+    "duration" : 14055
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+  "statusTrace" : "java.lang.AssertionError: 1 expectation failed.\nExpected status code <200> but was <400>.\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)\r\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)\r\n\tat ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:82)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:240)\r\n\tat org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:593)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1598967817077,
+      "stop" : 1598967822802,
+      "duration" : 5725
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1598967817012,
+      "stop" : 1598967817014,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1598967812527,
+      "stop" : 1598967812532,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1598967812533,
+      "stop" : 1598967816999,
+      "duration" : 4466
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1598967838012,
+      "stop" : 1598967838015,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1598967836891,
+      "stop" : 1598967838007,
+      "duration" : 1116
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6e8413b131f44a",
+      "name" : "JXRj.png",
+      "source" : "6e8413b131f44a.png",
+      "type" : "image/png",
+      "size" : 77851
+    }, {
+      "uid" : "c555e08f8d248e86",
+      "name" : "[Tue Sep 01 16:43:48 MSK 2020] https://api-crs.vodohod.com/ru/cruises/room-tariffs/9644",
+      "source" : "c555e08f8d248e86.txt",
+      "type" : "text/plain",
+      "size" : 39180
+    }, {
+      "uid" : "1bfef558435af667",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/ru/users/document-types",
+      "source" : "1bfef558435af667.txt",
+      "type" : "text/plain",
+      "size" : 357
+    }, {
+      "uid" : "2006074bac0293f3",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/ru/cruises/one/9644?with=offers,destinations,theme,cities,motorship/svgScheme,motorship/class,cityStart,cityEnd,cityUturn",
+      "source" : "2006074bac0293f3.txt",
+      "type" : "text/plain",
+      "size" : 190813
+    }, {
+      "uid" : "24b5ae4d45586d2e",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/ru/booking/decks/9644",
+      "source" : "24b5ae4d45586d2e.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    }, {
+      "uid" : "ddce3c70ef4b077f",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/ru/booking/rooms/9644?with=side,roomClass",
+      "source" : "ddce3c70ef4b077f.txt",
+      "type" : "text/plain",
+      "size" : 141302
+    }, {
+      "uid" : "b20974bf9bc9092d",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/ru/booking/adds/9644?with=type,price",
+      "source" : "b20974bf9bc9092d.txt",
+      "type" : "text/plain",
+      "size" : 8071
+    }, {
+      "uid" : "ae8599ff312635a4",
+      "name" : "[Tue Sep 01 16:43:51 MSK 2020] https://api-crs.vodohod.com/security/authorise",
+      "source" : "ae8599ff312635a4.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "6cd65302e0f83723",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=711&with=media,accommodationsTypes,minPrice",
+      "source" : "6cd65302e0f83723.txt",
+      "type" : "text/plain",
+      "size" : 1323
+    }, {
+      "uid" : "e060b2b2f9675346",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=588&with=media,accommodationsTypes,minPrice",
+      "source" : "e060b2b2f9675346.txt",
+      "type" : "text/plain",
+      "size" : 6130
+    }, {
+      "uid" : "a26486c301b20de8",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=589&with=media,accommodationsTypes,minPrice",
+      "source" : "a26486c301b20de8.txt",
+      "type" : "text/plain",
+      "size" : 8709
+    }, {
+      "uid" : "3bb099715e08bbe6",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=590&with=media,accommodationsTypes,minPrice",
+      "source" : "3bb099715e08bbe6.txt",
+      "type" : "text/plain",
+      "size" : 3737
+    }, {
+      "uid" : "a36678f617bd2f29",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "a36678f617bd2f29.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "fdf022e6d6c7bf9c",
+      "name" : "[Tue Sep 01 16:43:52 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "fdf022e6d6c7bf9c.txt",
+      "type" : "text/plain",
+      "size" : 672
+    }, {
+      "uid" : "844e5dda91acb177",
+      "name" : "[Tue Sep 01 16:43:53 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null",
+      "source" : "844e5dda91acb177.txt",
+      "type" : "text/plain",
+      "size" : 307
+    }, {
+      "uid" : "a9131028b48fccca",
+      "name" : "[Tue Sep 01 16:43:53 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6IjFjN2UzNmQzMzAzZmU2YjFlN2E0NjE5YjcwMzkyYWFmMWU5ZmJmYmIzZTc1Y2IzMzY3ZDdmNDRjOGRkNGVhMGIzMTY5NGViOTdiMTIwNjBiIiwiaWF0IjoxNTk4OTY0MjkzLCJuYmYiOjE1OTg5NjQyOTMsImV4cCI6MTU5OTA1MDY5Mywic3ViIjoiNjk2OTA2Iiwic2NvcGVzIjpbInRlc3QiXX0.vNL2OXRmwVjcX8QTaF0Q231NtsgUSJA3sW-fF3yOEIoDQjdTpSIoKy47Ry-T1JTcvUSK-c0g81msGNg6pFBe1HVdmixLpH4CiTVn4W-Cq4Ymwd23MxamDmh20zwfUtjAftTUfdcBrQPLPUNVHfQ6bMCEr3tMsz3T-gaQjp3zBSgiCtpukbh6_BM6npLO1cmCd6GJdXJFKR7bNiUeeewi0VCNl86LVSbNInweCNaKltpkUqJiJOwLFvXjUY-x2I9lgG36pNF2pzqH46yHSdX8xljYDsttDFl1Vp3BqQBYiBj5nGqRUqEyOWC9RQ9s5LR5K2uF0PBBCCUGYnqU-tvsmA&crs_user_id=undefined",
+      "source" : "a9131028b48fccca.txt",
+      "type" : "text/plain",
+      "size" : 803
+    }, {
+      "uid" : "c3d3b50fa9c67bc",
+      "name" : "[Tue Sep 01 16:43:54 MSK 2020] https://api-crs.vodohod.com/ru/booking/accommodations/488677?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price",
+      "source" : "c3d3b50fa9c67bc.txt",
+      "type" : "text/plain",
+      "size" : 164
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 17
+  }, {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1598967838018,
+      "stop" : 1598967838018,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "13728@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58f1cf1fdc970d45.json",
+  "parameterValues" : [ ]
+}

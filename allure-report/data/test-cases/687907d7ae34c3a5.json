@@ -1,0 +1,183 @@
+{
+  "uid" : "687907d7ae34c3a5",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1599029666970,
+    "stop" : 1599029670028,
+    "duration" : 3058
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1599029662361,
+      "stop" : 1599029666943,
+      "duration" : 4582
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1599029662273,
+      "stop" : 1599029662275,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1599029657929,
+      "stop" : 1599029657936,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1599029657936,
+      "stop" : 1599029662262,
+      "duration" : 4326
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1599029672081,
+      "stop" : 1599029672082,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1599029670050,
+      "stop" : 1599029672075,
+      "duration" : 2025
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75a28f1075950a92",
+      "name" : "JXRj.png",
+      "source" : "75a28f1075950a92.png",
+      "type" : "image/png",
+      "size" : 2705978
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1599029672087,
+      "stop" : 1599029672088,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "12572@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "687907d7ae34c3a5.json",
+  "parameterValues" : [ ]
+}

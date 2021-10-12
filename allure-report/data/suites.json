@@ -1,0 +1,99 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "Vodohod1",
+      "children" : [ {
+        "name" : "ru.qa.ui.TestApiVodohod",
+        "children" : [ {
+          "name" : "beforeClass",
+          "uid" : "374a68dcf53eb2a4",
+          "parentUid" : "00a7f48e99d63813f1705b846a3fff42",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598944266411,
+            "stop" : 1598944268431,
+            "duration" : 2020
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "RefreshRun",
+          "uid" : "8b6f59a1203c0716",
+          "parentUid" : "00a7f48e99d63813f1705b846a3fff42",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598950398885,
+            "stop" : 1598950400989,
+            "duration" : 2104
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "00a7f48e99d63813f1705b846a3fff42"
+      }, {
+        "name" : "ru.qa.ui.TestVodohodAuto",
+        "children" : [ {
+          "name" : "initBrowser",
+          "uid" : "2ff9d2dfe98473f5",
+          "parentUid" : "2590d056ead1f24cfcf4a843396257dd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599034879858,
+            "stop" : 1599034879861,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "springTestContextPrepareTestInstance",
+          "uid" : "be3724e1ca366807",
+          "parentUid" : "2590d056ead1f24cfcf4a843396257dd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599058585063,
+            "stop" : 1599058585064,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "closeBrowser",
+          "uid" : "a39e66ada268f95d",
+          "parentUid" : "2590d056ead1f24cfcf4a843396257dd",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599140388370,
+            "stop" : 1599140388371,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "filtrerVodohod",
+          "uid" : "3e1a405ef2e87346",
+          "parentUid" : "2590d056ead1f24cfcf4a843396257dd",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599140872572,
+            "stop" : 1599140921742,
+            "duration" : 49170
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2590d056ead1f24cfcf4a843396257dd"
+      } ],
+      "uid" : "26b2189971118bdccfaea384f56bfd14"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

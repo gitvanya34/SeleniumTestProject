@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/set-owner/86774
+{"result":"OK","data":{"id":86774,"number":"O-5f5877337d815","status":12}}
+null

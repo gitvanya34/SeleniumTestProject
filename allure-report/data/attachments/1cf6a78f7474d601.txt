@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/users/current?with=agency
+{"id":696906,"crmID":null,"mindboxID":null,"guid":"6a93d23d-d726-11ea-96d5-000c294854df","siteID":null,"type":"8","firstName":"System","lastName":"Website","patronymicName":"[отсутствует]","email":"website.public@vodohod.ru","phone":"","sex":null,"birthDate":false,"nationality":null,"address":"","bonusCardNumber":null,"documentType":false,"documentSeries":false,"documentNumber":false,"documentSeparateSeries":null,"documentSeparateNumber":null,"documentIssueDate":false,"documentIssuerer":false,"owner":null,"vip":0,"agency":null,"accountable":null,"updatedAt":1598955847,"createdAt":1596628721}
+null

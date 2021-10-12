@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/booking/souvenirs/11294?with=price,media
+{"result":"OK"}
+null

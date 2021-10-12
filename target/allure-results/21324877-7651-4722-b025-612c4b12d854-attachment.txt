@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/set-owner/159024
+{"result":"OK","data":{"id":159024,"number":"ПК-00059816","status":12}}
+null

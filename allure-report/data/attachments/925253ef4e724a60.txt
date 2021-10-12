@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/formalize/81533
+{"result":"OK"}
+null

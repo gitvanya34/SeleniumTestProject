@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/add-add/79698
+{"result":"OK","data":{"id":79698,"add":11023}}
+null

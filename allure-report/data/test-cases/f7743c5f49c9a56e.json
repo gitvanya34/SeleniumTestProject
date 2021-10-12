@@ -1,0 +1,281 @@
+{
+  "uid" : "f7743c5f49c9a56e",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1599133112849,
+    "stop" : 1599133128990,
+    "duration" : 16141
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Element <span class=\"option__name option__name--single\"> is not clickable at point (647,107) because another element <div class=\"header-bottom__item-value\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4824, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 55d6da5e-c91f-4d74-bcb1-c42c3adf4c5d",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: Element <span class=\"option__name option__name--single\"> is not clickable at point (647,107) because another element <div class=\"header-bottom__item-value\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4824, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 55d6da5e-c91f-4d74-bcb1-c42c3adf4c5d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat ru.qa.ui.pageobject.MainBookingCruise.fillform(MainBookingCruise.java:161)\r\n\tat ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:46)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:240)\r\n\tat org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:593)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1599133104116,
+      "stop" : 1599133104126,
+      "duration" : 10
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1599133104126,
+      "stop" : 1599133107999,
+      "duration" : 3873
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1599133108071,
+      "stop" : 1599133112826,
+      "duration" : 4755
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1599133108010,
+      "stop" : 1599133108011,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1599133131867,
+      "stop" : 1599133131867,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1599133131867,
+      "stop" : 1599133131867,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1599133128998,
+      "stop" : 1599133131851,
+      "duration" : 2853
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94bf40d2a0c0d798",
+      "name" : "JXRj.png",
+      "source" : "94bf40d2a0c0d798.png",
+      "type" : "image/png",
+      "size" : 116178
+    }, {
+      "uid" : "4a46204a426d0f68",
+      "name" : "[Thu Sep 03 14:38:37 MSK 2020] https://api-crs.vodohod.com/ru/cruises/room-tariffs/9644",
+      "source" : "4a46204a426d0f68.txt",
+      "type" : "text/plain",
+      "size" : 39180
+    }, {
+      "uid" : "ce1378537e2dbce4",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/ru/users/document-types",
+      "source" : "ce1378537e2dbce4.txt",
+      "type" : "text/plain",
+      "size" : 357
+    }, {
+      "uid" : "581cf90b02eca970",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/ru/cruises/one/9644?with=offers,destinations,theme,cities,motorship/svgScheme,motorship/class,cityStart,cityEnd,cityUturn",
+      "source" : "581cf90b02eca970.txt",
+      "type" : "text/plain",
+      "size" : 190813
+    }, {
+      "uid" : "a2d7e980248fc385",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/ru/booking/rooms/9644?with=side,roomClass",
+      "source" : "a2d7e980248fc385.txt",
+      "type" : "text/plain",
+      "size" : 141302
+    }, {
+      "uid" : "5c2fa26b1e27ac6b",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/ru/booking/adds/9644?with=type,price",
+      "source" : "5c2fa26b1e27ac6b.txt",
+      "type" : "text/plain",
+      "size" : 8071
+    }, {
+      "uid" : "6393bdaecd7198d2",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/security/authorise",
+      "source" : "6393bdaecd7198d2.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "9b337350a6d693e3",
+      "name" : "[Thu Sep 03 14:38:41 MSK 2020] https://api-crs.vodohod.com/ru/booking/decks/9644",
+      "source" : "9b337350a6d693e3.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    }, {
+      "uid" : "9e6182d71d6c628f",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=711&with=media,accommodationsTypes,minPrice",
+      "source" : "9e6182d71d6c628f.txt",
+      "type" : "text/plain",
+      "size" : 1323
+    }, {
+      "uid" : "a2daa3d329a2cd3b",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=588&with=media,accommodationsTypes,minPrice",
+      "source" : "a2daa3d329a2cd3b.txt",
+      "type" : "text/plain",
+      "size" : 6130
+    }, {
+      "uid" : "c658e86b0b08757d",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=589&with=media,accommodationsTypes,minPrice",
+      "source" : "c658e86b0b08757d.txt",
+      "type" : "text/plain",
+      "size" : 8709
+    }, {
+      "uid" : "83406ba1f2ae4666",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=590&with=media,accommodationsTypes,minPrice",
+      "source" : "83406ba1f2ae4666.txt",
+      "type" : "text/plain",
+      "size" : 3737
+    }, {
+      "uid" : "be869935406102df",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "be869935406102df.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "322bfc33b6cc3a5c",
+      "name" : "[Thu Sep 03 14:38:42 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "322bfc33b6cc3a5c.txt",
+      "type" : "text/plain",
+      "size" : 672
+    }, {
+      "uid" : "6a444d29dd616944",
+      "name" : "[Thu Sep 03 14:38:43 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6IjE2NDI4OWRiNjg1YmNlN2YzNDRkM2MwODEzZDhiNzgwOTQ0YjdlN2RhY2IwNmFlODNiMzk1YzI3OTFjODliMWZmYWY2MjgyYjE4YmY4NmY2IiwiaWF0IjoxNTk5MTI5NTg2LCJuYmYiOjE1OTkxMjk1ODYsImV4cCI6MTU5OTIxNTk4Niwic3ViIjoiNjk2OTA2Iiwic2NvcGVzIjpbInRlc3QiXX0.iLUF00gfL42REfZhEForTriZGccBHVhY44cccQSkIMkxoNF_6_MM0hYPKQZvg_JxL89CHESEvDaSE93dj2KO7Uw25_maZqQSxnLIOPX70Als2jO0tins3HJ-QtUIDtsYWDkKNAVxLG565sRTDwW-AqV-1hhKQiA_787cNPcsQaqccLWKe8h_JSH15DWvNDZj-f7v92uT0rTEIg0bRXeoYvdjUebNgA-Tvx5VZ62KcsWqR2tZMMhtya1P6MmBfpTddlQNwkirOQarIkxWFwV0BBMukysxmiCoLn20g384TpLtiGALPhJhgUVQpFe0HWVEwzTNgzetuxr8KmLtgd7URQ&crs_user_id=undefined",
+      "source" : "6a444d29dd616944.txt",
+      "type" : "text/plain",
+      "size" : 803
+    }, {
+      "uid" : "d137c878aceea4d",
+      "name" : "[Thu Sep 03 14:38:43 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null",
+      "source" : "d137c878aceea4d.txt",
+      "type" : "text/plain",
+      "size" : 305
+    }, {
+      "uid" : "11ae153588830567",
+      "name" : "[Thu Sep 03 14:38:45 MSK 2020] https://api-crs.vodohod.com/ru/booking/accommodations/488677?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price",
+      "source" : "11ae153588830567.txt",
+      "type" : "text/plain",
+      "size" : 2786
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 17
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "8348@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7743c5f49c9a56e.json",
+  "parameterValues" : [ ]
+}

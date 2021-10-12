@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/booking/room-classes/11294?filter[deck][0]=703&with=media,accommodationsTypes,minPrice
+{"result":"OK","limit":10,"offset":0,"data":[]}
+null

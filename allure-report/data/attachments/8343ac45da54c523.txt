@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/users/document-types
+{"result":"OK","limit":10,"offset":0,"data":[{"id":1,"name":"Паспорт РФ","updatedAt":null,"sort":null},{"id":3,"name":"Иностранный документ","updatedAt":null,"sort":null},{"id":5,"name":"Свидетельство о рождении РФ","updatedAt":null,"sort":null}]}
+null

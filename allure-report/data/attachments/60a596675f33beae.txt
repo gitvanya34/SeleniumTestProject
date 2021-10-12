@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/formalize/79073
+{"error":{"error_code":1,"error_msg":"Заказ не зарегистрирован в 1С","request_params":[]}}
+null

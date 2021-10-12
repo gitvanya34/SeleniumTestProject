@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Sep 02 11:21:19 MSK 2020","Wed Sep 02 11:21:19 MSK 2020","3","Default Suite","Vodohod1","ru.qa.ui.TestVodohodAuto","ru.qa.ui.TestVodohodAuto","initBrowser","initBrowser",""
+"failed","Thu Sep 03 16:47:52 MSK 2020","Thu Sep 03 16:48:41 MSK 2020","49170","Default Suite","Vodohod1","ru.qa.ui.TestVodohodAuto","ru.qa.ui.TestVodohodAuto","filtrerVodohod","filtrerVodohod","Verify user registration correct value."
+"passed","Tue Sep 01 10:11:06 MSK 2020","Tue Sep 01 10:11:08 MSK 2020","2020","Default Suite","Vodohod1","ru.qa.ui.TestApiVodohod","ru.qa.ui.TestApiVodohod","beforeClass","beforeClass",""
+"broken","Wed Sep 02 17:56:25 MSK 2020","Wed Sep 02 17:56:25 MSK 2020","1","Default Suite","Vodohod1","ru.qa.ui.TestVodohodAuto","ru.qa.ui.TestVodohodAuto","springTestContextPrepareTestInstance","springTestContextPrepareTestInstance",""
+"failed","Thu Sep 03 16:39:48 MSK 2020","Thu Sep 03 16:39:48 MSK 2020","1","Default Suite","Vodohod1","ru.qa.ui.TestVodohodAuto","ru.qa.ui.TestVodohodAuto","closeBrowser","closeBrowser",""
+"passed","Tue Sep 01 11:53:18 MSK 2020","Tue Sep 01 11:53:20 MSK 2020","2104","Default Suite","Vodohod1","ru.qa.ui.TestApiVodohod","ru.qa.ui.TestApiVodohod","RefreshRun","RefreshRun",""

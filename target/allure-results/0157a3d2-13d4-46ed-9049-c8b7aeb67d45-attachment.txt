@@ -1,0 +1,3 @@
+https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/send_email?event=NEW_ORDER&order=85293&site=s1
+{"result":{"event_id":245446},"time":{"start":1599121057.524821,"finish":1599121057.85966,"duration":0.3348388671875,"processing":0.316925048828125,"date_start":"2020-09-03T11:17:37+03:00","date_finish":"2020-09-03T11:17:37+03:00"}}
+null

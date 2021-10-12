@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/book-room
+{"result":"OK","data":{"id":85226,"number":"O-5f50888469295","time":1599113348,"status":12,"timeout":1599115148}}
+null

@@ -1,0 +1,641 @@
+{
+  "uid" : "450e6f7165898ca6",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1598599508943,
+    "stop" : 1598599593637,
+    "duration" : 84694
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8456, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c9abf003-048b-4cab-839c-c939d9c112fb",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8456, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c9abf003-048b-4cab-839c-c939d9c112fb\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.qa.ui.pageobject.BasePage.waitLoaderClosed(BasePage.java:52)\r\n\tat ru.qa.ui.pageobject.EndingReservedCruise.fillform(EndingReservedCruise.java:34)\r\n\tat ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:19)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:240)\r\n\tat org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:593)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1598599500332,
+      "stop" : 1598599500338,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1598599500339,
+      "stop" : 1598599504251,
+      "duration" : 3912
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1598599504269,
+      "stop" : 1598599504270,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1598599504323,
+      "stop" : 1598599508915,
+      "duration" : 4592
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1598599594694,
+      "stop" : 1598599594694,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1598599593642,
+      "stop" : 1598599594694,
+      "duration" : 1052
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f510fd3aec766f88",
+      "name" : "JXRj.png",
+      "source" : "f510fd3aec766f88.png",
+      "type" : "image/png",
+      "size" : 102268
+    }, {
+      "uid" : "af728c38731a275b",
+      "name" : "https://api-crs.vodohod.com/ru/cruises/room-tariffs/9644",
+      "source" : "af728c38731a275b.txt",
+      "type" : "text/plain",
+      "size" : 39180
+    }, {
+      "uid" : "c23871d1888d3097",
+      "name" : "https://api-crs.vodohod.com/ru/users/document-types",
+      "source" : "c23871d1888d3097.txt",
+      "type" : "text/plain",
+      "size" : 357
+    }, {
+      "uid" : "889ab2f6fa3138e1",
+      "name" : "https://api-crs.vodohod.com/ru/booking/rooms/9644?with=side,roomClass",
+      "source" : "889ab2f6fa3138e1.txt",
+      "type" : "text/plain",
+      "size" : 141302
+    }, {
+      "uid" : "9398cecb3f34fb82",
+      "name" : "https://api-crs.vodohod.com/ru/cruises/one/9644?with=offers,destinations,theme,cities,motorship/svgScheme,motorship/class,cityStart,cityEnd,cityUturn",
+      "source" : "9398cecb3f34fb82.txt",
+      "type" : "text/plain",
+      "size" : 199703
+    }, {
+      "uid" : "6ccc2e99d587a287",
+      "name" : "https://api-crs.vodohod.com/ru/booking/decks/9644",
+      "source" : "6ccc2e99d587a287.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    }, {
+      "uid" : "5ffb720e5c3da1d0",
+      "name" : "https://api-crs.vodohod.com/security/authorise",
+      "source" : "5ffb720e5c3da1d0.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "818323349624f52d",
+      "name" : "https://api-crs.vodohod.com/ru/booking/adds/9644?with=type,price",
+      "source" : "818323349624f52d.txt",
+      "type" : "text/plain",
+      "size" : 8071
+    }, {
+      "uid" : "28db62bb526607a2",
+      "name" : "https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=711&with=media,accommodationsTypes,minPrice",
+      "source" : "28db62bb526607a2.txt",
+      "type" : "text/plain",
+      "size" : 1323
+    }, {
+      "uid" : "7643b32b5ffc191a",
+      "name" : "https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=588&with=media,accommodationsTypes,minPrice",
+      "source" : "7643b32b5ffc191a.txt",
+      "type" : "text/plain",
+      "size" : 6130
+    }, {
+      "uid" : "74c5a509993bba1c",
+      "name" : "https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=589&with=media,accommodationsTypes,minPrice",
+      "source" : "74c5a509993bba1c.txt",
+      "type" : "text/plain",
+      "size" : 8709
+    }, {
+      "uid" : "7b7c645c99d72c83",
+      "name" : "https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=590&with=media,accommodationsTypes,minPrice",
+      "source" : "7b7c645c99d72c83.txt",
+      "type" : "text/plain",
+      "size" : 3737
+    }, {
+      "uid" : "c1a293bcea587de0",
+      "name" : "https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "c1a293bcea587de0.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "ff06437f3ead48d9",
+      "name" : "https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "ff06437f3ead48d9.txt",
+      "type" : "text/plain",
+      "size" : 672
+    }, {
+      "uid" : "582aee501b2154e2",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null",
+      "source" : "582aee501b2154e2.txt",
+      "type" : "text/plain",
+      "size" : 306
+    }, {
+      "uid" : "e3e2edd51ebf9ffe",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6IjdkNmM3YzYxYTg1MTRkMzdjODkzMmRhNmVlOTI4OTEyM2M5ODgwM2UxYjc1YTI2ZjI0Yzk5NGY4YTkxZTUzMjc1ODY2NTU3NjQ0YTRkNDlkIiwiaWF0IjoxNTk4NTk1OTczLCJuYmYiOjE1OTg1OTU5NzMsImV4cCI6MTU5ODY4MjM3Mywic3ViIjoiNjk2OTA2Iiwic2NvcGVzIjpbInRlc3QiXX0.d8IdkHsML9UXqcsU0d3ApxT50VpJE9rqPuxNLBtfYe1kcUs8u5yUX7n42Ov05RUutN6Y3x6ePEAZrdIXU9pWVvb5a9jZ7S729e5iKne7gj5QL16niy9KqjzGBJe5QFY2GoQTrHlbV2e2mgqP7fBUqseNo7hCtsEQqQRx3MIw_l0cvY-Fhg5spAOC2O-v5rQfDqsLM6ByDfe5X6G9APaLNNd0Ud1Jyk5E8YcDZagDitGdWm2ZTqCGeD-c3XrE5VBU4HzUwp_UcGstAh4u4USoz52fvTrx_2HR5gcIHA9hYlFPpsJXDncOcH2ovR3LtCou9gf5SAWzVRwMcTanA2u2Dg&crs_user_id=undefined",
+      "source" : "e3e2edd51ebf9ffe.txt",
+      "type" : "text/plain",
+      "size" : 803
+    }, {
+      "uid" : "3e859a1f61dc2c90",
+      "name" : "https://api-crs.vodohod.com/ru/booking/accommodations/488633?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price",
+      "source" : "3e859a1f61dc2c90.txt",
+      "type" : "text/plain",
+      "size" : 4606
+    }, {
+      "uid" : "b0aeb5ee2a39ba2f",
+      "name" : "https://api-crs.vodohod.com/ru/orders/book-room",
+      "source" : "b0aeb5ee2a39ba2f.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "e19623d30512304c",
+      "name" : "https://api-crs.vodohod.com/ru/orders/book-room",
+      "source" : "e19623d30512304c.txt",
+      "type" : "text/plain",
+      "size" : 167
+    }, {
+      "uid" : "72a8ab202a9ed007",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "72a8ab202a9ed007.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "4d8233e9d1e5cc51",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "4d8233e9d1e5cc51.txt",
+      "type" : "text/plain",
+      "size" : 115687
+    }, {
+      "uid" : "8c142d02badcfbf1",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "8c142d02badcfbf1.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "6d40bd0e26a75448",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "6d40bd0e26a75448.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "d6269e69ea18e039",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "d6269e69ea18e039.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "e7726defd2cb1bd0",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "e7726defd2cb1bd0.txt",
+      "type" : "text/plain",
+      "size" : 90
+    }, {
+      "uid" : "b836cfa415e0974e",
+      "name" : "https://api-crs.vodohod.com/security/authorise",
+      "source" : "b836cfa415e0974e.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "727bb419e1d6a276",
+      "name" : "https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "727bb419e1d6a276.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "b189405305c9315f",
+      "name" : "https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "b189405305c9315f.txt",
+      "type" : "text/plain",
+      "size" : 707
+    }, {
+      "uid" : "554cdf54b67e7a2c",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_travel_companions?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImE5NjE0YzEyYzQwMjQwZWQ1YWUyZjRiZTcxMWYyMzZjNTEwMDZjYzZmMjhiNjhiNmQ5NDE3ODNhMTg2ZDA5ZDkwNjc5ODMzNWM4Yzk2NzcyIiwiaWF0IjoxNTk4NTk1OTkzLCJuYmYiOjE1OTg1OTU5OTMsImV4cCI6MTU5ODY4MjM5Mywic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.82Dnfz3lYHzfZtzcNZVoCOt772AgFBVU0QcF3mru6kTc0OblXGtKIyBn2RgHbg0pJ531kND64L5A9kqMv0upDuZUaaYZIfJ4B8fbFL2EHDzWESUXXTsZJqM3F0QaK0PqTyWck3ijDXQgfn67oZjFj6ysPY6lECXnGlizB1wved0C2cQnOAqu5sjJFMrITW9VBZ4vFkghS1gPH03BdgtXK_NTrVo2FBDTemI6kA3cTKr0mUjnnZZ27How0GgA00GmyDQIDF8-I9U0Bb6pW4L7Fzu8IvRzOA7Xcckt_x1-IZtdCgimaGJ9QqpOwmqnbCXzWtfrBk6xmC2JKwkACl0NiQ&crs_user_id=701297",
+      "source" : "554cdf54b67e7a2c.txt",
+      "type" : "text/plain",
+      "size" : 768
+    }, {
+      "uid" : "1467395438c601a6",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImE5NjE0YzEyYzQwMjQwZWQ1YWUyZjRiZTcxMWYyMzZjNTEwMDZjYzZmMjhiNjhiNmQ5NDE3ODNhMTg2ZDA5ZDkwNjc5ODMzNWM4Yzk2NzcyIiwiaWF0IjoxNTk4NTk1OTkzLCJuYmYiOjE1OTg1OTU5OTMsImV4cCI6MTU5ODY4MjM5Mywic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.82Dnfz3lYHzfZtzcNZVoCOt772AgFBVU0QcF3mru6kTc0OblXGtKIyBn2RgHbg0pJ531kND64L5A9kqMv0upDuZUaaYZIfJ4B8fbFL2EHDzWESUXXTsZJqM3F0QaK0PqTyWck3ijDXQgfn67oZjFj6ysPY6lECXnGlizB1wved0C2cQnOAqu5sjJFMrITW9VBZ4vFkghS1gPH03BdgtXK_NTrVo2FBDTemI6kA3cTKr0mUjnnZZ27How0GgA00GmyDQIDF8-I9U0Bb6pW4L7Fzu8IvRzOA7Xcckt_x1-IZtdCgimaGJ9QqpOwmqnbCXzWtfrBk6xmC2JKwkACl0NiQ&crs_user_id=701297",
+      "source" : "1467395438c601a6.txt",
+      "type" : "text/plain",
+      "size" : 2035
+    }, {
+      "uid" : "4955f651f3aae095",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "4955f651f3aae095.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "af8a5908921e6aae",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "af8a5908921e6aae.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "bc8dc886e1a2b99e",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "bc8dc886e1a2b99e.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "eaefd5b910409929",
+      "name" : "https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "eaefd5b910409929.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "931668d45ff53c1a",
+      "name" : "https://api-crs.vodohod.com/ru/users/update-user/701297",
+      "source" : "931668d45ff53c1a.txt",
+      "type" : "text/plain",
+      "size" : 62
+    }, {
+      "uid" : "c553d95be0e0308a",
+      "name" : "https://api-crs.vodohod.com/ru/users/update-user/701297",
+      "source" : "c553d95be0e0308a.txt",
+      "type" : "text/plain",
+      "size" : 149
+    }, {
+      "uid" : "5cd2a51da805c882",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/update_user?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImE5NjE0YzEyYzQwMjQwZWQ1YWUyZjRiZTcxMWYyMzZjNTEwMDZjYzZmMjhiNjhiNmQ5NDE3ODNhMTg2ZDA5ZDkwNjc5ODMzNWM4Yzk2NzcyIiwiaWF0IjoxNTk4NTk1OTkzLCJuYmYiOjE1OTg1OTU5OTMsImV4cCI6MTU5ODY4MjM5Mywic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.82Dnfz3lYHzfZtzcNZVoCOt772AgFBVU0QcF3mru6kTc0OblXGtKIyBn2RgHbg0pJ531kND64L5A9kqMv0upDuZUaaYZIfJ4B8fbFL2EHDzWESUXXTsZJqM3F0QaK0PqTyWck3ijDXQgfn67oZjFj6ysPY6lECXnGlizB1wved0C2cQnOAqu5sjJFMrITW9VBZ4vFkghS1gPH03BdgtXK_NTrVo2FBDTemI6kA3cTKr0mUjnnZZ27How0GgA00GmyDQIDF8-I9U0Bb6pW4L7Fzu8IvRzOA7Xcckt_x1-IZtdCgimaGJ9QqpOwmqnbCXzWtfrBk6xmC2JKwkACl0NiQ&crs_user_id=701297&name=%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0&last_name=%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D1%8B%D1%87&second_name=knkj&birthday=11.11.1999&gender=M&phone=12345678987&doctype=1&docnumber=111111&docseries=1111&docdate=11.11.1999&docissuerer=lom&address=uohniuu",
+      "source" : "5cd2a51da805c882.txt",
+      "type" : "text/plain",
+      "size" : 1238
+    }, {
+      "uid" : "e31e7fa2dd977a8",
+      "name" : "https://api-crs.vodohod.com/ru/orders/set-owner/78840",
+      "source" : "e31e7fa2dd977a8.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "e6dd6f3d5eb2e72e",
+      "name" : "https://api-crs.vodohod.com/ru/orders/set-owner/78840",
+      "source" : "e6dd6f3d5eb2e72e.txt",
+      "type" : "text/plain",
+      "size" : 134
+    }, {
+      "uid" : "a78833ed46a52509",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "a78833ed46a52509.txt",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "2220c011010d72bb",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "2220c011010d72bb.txt",
+      "type" : "text/plain",
+      "size" : 88
+    }, {
+      "uid" : "e8c1231f7705ff46",
+      "name" : "https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "e8c1231f7705ff46.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "3c128715fb0f7435",
+      "name" : "https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "3c128715fb0f7435.txt",
+      "type" : "text/plain",
+      "size" : 132
+    }, {
+      "uid" : "6269a2303288caf2",
+      "name" : "https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/register_user_mindbox?data={%22customer%22:{%22email%22:%22n.nickitytch@yandex.ru%22,%22mobilePhone%22:%22+1%20(111)%20111-1111%22,%22lastName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%22,%22firstName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%D1%8B%D1%87%22,%22birthDate%22:%2211.11.1999%22,%22sex%22:%22male%22,%22ids%22:{%22bookingSystemId%22:708181,%22crmId%22:555153},%22customFields%22:{%22status%22:[%22%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80%22],%22nationality%22:%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22},%22subscriptions%22:[{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Email%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22},{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Sms%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22}]}}",
+      "source" : "6269a2303288caf2.txt",
+      "type" : "text/plain",
+      "size" : 1205
+    }, {
+      "uid" : "290390df951e7964",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/update/78840/708181",
+      "source" : "290390df951e7964.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "b0fbfc0a3e37324a",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/update/78840/708181",
+      "source" : "b0fbfc0a3e37324a.txt",
+      "type" : "text/plain",
+      "size" : 670
+    }, {
+      "uid" : "fb491dd23a617c3a",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/update/78840/708181",
+      "source" : "fb491dd23a617c3a.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "92014155002b7b29",
+      "name" : "https://api-crs.vodohod.com/ru/passengers/update/78840/708181",
+      "source" : "92014155002b7b29.txt",
+      "type" : "text/plain",
+      "size" : 670
+    }, {
+      "uid" : "91e19861400cb0bb",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "91e19861400cb0bb.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "547176f3a33cad41",
+      "name" : "https://api-crs.vodohod.com/ru/orders/set-crmID/78840",
+      "source" : "547176f3a33cad41.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "dc2040d763de15ce",
+      "name" : "https://api-crs.vodohod.com/ru/orders/set-crmID/78840",
+      "source" : "dc2040d763de15ce.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "bb7331d11a2360bb",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "bb7331d11a2360bb.txt",
+      "type" : "text/plain",
+      "size" : 116350
+    }, {
+      "uid" : "4573839fed88344e",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "4573839fed88344e.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "24ac592178526e28",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "24ac592178526e28.txt",
+      "type" : "text/plain",
+      "size" : 116358
+    }, {
+      "uid" : "7135cc0a27052227",
+      "name" : "https://api-crs.vodohod.com/ru/orders/add-add/78840",
+      "source" : "7135cc0a27052227.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "518a5243ebe430a4",
+      "name" : "https://api-crs.vodohod.com/ru/orders/add-add/78840",
+      "source" : "518a5243ebe430a4.txt",
+      "type" : "text/plain",
+      "size" : 105
+    }, {
+      "uid" : "a04d1c2b5f20e4a0",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "a04d1c2b5f20e4a0.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "58cd02e788b59c1d",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "58cd02e788b59c1d.txt",
+      "type" : "text/plain",
+      "size" : 119381
+    }, {
+      "uid" : "29c27020c955f1aa",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "29c27020c955f1aa.txt",
+      "type" : "text/plain",
+      "size" : 80
+    }, {
+      "uid" : "11b3e09e98be2726",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "11b3e09e98be2726.txt",
+      "type" : "text/plain",
+      "size" : 80
+    }, {
+      "uid" : "875347311570bc8b",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "875347311570bc8b.txt",
+      "type" : "text/plain",
+      "size" : 3406
+    }, {
+      "uid" : "f18056461fa8fca5",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "f18056461fa8fca5.txt",
+      "type" : "text/plain",
+      "size" : 3406
+    }, {
+      "uid" : "b475f9ab4ab95ec1",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "b475f9ab4ab95ec1.txt",
+      "type" : "text/plain",
+      "size" : 80
+    }, {
+      "uid" : "3e28f87b76d973c2",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840?with=adds/type,adds/price",
+      "source" : "3e28f87b76d973c2.txt",
+      "type" : "text/plain",
+      "size" : 3406
+    }, {
+      "uid" : "49ebe9e827590225",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840",
+      "source" : "49ebe9e827590225.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "4537352b7fc9af00",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840",
+      "source" : "4537352b7fc9af00.txt",
+      "type" : "text/plain",
+      "size" : 620
+    }, {
+      "uid" : "ba4ba913158c472",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840",
+      "source" : "ba4ba913158c472.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "46728ba76baa36e8",
+      "name" : "https://api-crs.vodohod.com/ru/orders/one/78840",
+      "source" : "46728ba76baa36e8.txt",
+      "type" : "text/plain",
+      "size" : 620
+    }, {
+      "uid" : "b28af20208780c4d",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "b28af20208780c4d.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "1ab614abd975944a",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "1ab614abd975944a.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "8189dcf52ff41482",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "8189dcf52ff41482.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "36dc39e8a81e9459",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "36dc39e8a81e9459.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "cb0aca464a4edc32",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "cb0aca464a4edc32.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "a6102bf8580da3f7",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "a6102bf8580da3f7.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "b199ba4a401e696",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "b199ba4a401e696.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "3a38da7ca2514604",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "3a38da7ca2514604.txt",
+      "type" : "text/plain",
+      "size" : 180
+    }, {
+      "uid" : "e77f659bc2945413",
+      "name" : "https://api-crs.vodohod.com/ru/orders/formalize/78840",
+      "source" : "e77f659bc2945413.txt",
+      "type" : "text/plain",
+      "size" : 180
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 77
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1598599594694,
+      "stop" : 1598599594694,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "6368@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "450e6f7165898ca6.json",
+  "parameterValues" : [ ]
+}

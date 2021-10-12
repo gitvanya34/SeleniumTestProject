@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2ff9d2dfe98473f5",
+  "name" : "initBrowser",
+  "time" : {
+    "start" : 1599034879858,
+    "stop" : 1599034879861,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e1a405ef2e87346",
+  "name" : "filtrerVodohod",
+  "time" : {
+    "start" : 1599140872572,
+    "stop" : 1599140921742,
+    "duration" : 49170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "374a68dcf53eb2a4",
+  "name" : "beforeClass",
+  "time" : {
+    "start" : 1598944266411,
+    "stop" : 1598944268431,
+    "duration" : 2020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be3724e1ca366807",
+  "name" : "springTestContextPrepareTestInstance",
+  "time" : {
+    "start" : 1599058585063,
+    "stop" : 1599058585064,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a39e66ada268f95d",
+  "name" : "closeBrowser",
+  "time" : {
+    "start" : 1599140388370,
+    "stop" : 1599140388371,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6f59a1203c0716",
+  "name" : "RefreshRun",
+  "time" : {
+    "start" : 1598950398885,
+    "stop" : 1598950400989,
+    "duration" : 2104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

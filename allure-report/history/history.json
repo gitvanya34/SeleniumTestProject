@@ -1,0 +1,120 @@
+{
+  "a5215ea7eac81eae845e36195fd77305" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "374a68dcf53eb2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598944266411,
+        "stop" : 1598944268431,
+        "duration" : 2020
+      }
+    } ]
+  },
+  "f8af76dc60d4fa15f66d1da7750dc658" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e1a405ef2e87346",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599140872572,
+        "stop" : 1599140921742,
+        "duration" : 49170
+      }
+    } ]
+  },
+  "aa4a557c273381f84fd2867449300be8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b6f59a1203c0716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950398885,
+        "stop" : 1598950400989,
+        "duration" : 2104
+      }
+    } ]
+  },
+  "1550b4238ed20b972d67b07018193b90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be3724e1ca366807",
+      "status" : "broken",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599058585063,
+        "stop" : 1599058585064,
+        "duration" : 1
+      }
+    } ]
+  },
+  "882f4bac03e903cb3d64751dcd7ae667" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ff9d2dfe98473f5",
+      "status" : "broken",
+      "statusDetails" : "Browsing context has been discarded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7792, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 099f477f-73ef-4c83-83ce-869ee9173c45",
+      "time" : {
+        "start" : 1599034879858,
+        "stop" : 1599034879861,
+        "duration" : 3
+      }
+    } ]
+  },
+  "4457807d6dfc99fff90ea016daaf965f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a39e66ada268f95d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599140388370,
+        "stop" : 1599140388371,
+        "duration" : 1
+      }
+    } ]
+  }
+}

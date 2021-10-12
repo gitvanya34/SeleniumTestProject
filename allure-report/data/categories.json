@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Browsing context has been discarded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7792, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 099f477f-73ef-4c83-83ce-869ee9173c45",
+      "children" : [ {
+        "name" : "initBrowser",
+        "uid" : "2ff9d2dfe98473f5",
+        "parentUid" : "1a00db37364fe7892e833de7e4bcb720",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599034879858,
+          "stop" : 1599034879861,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a00db37364fe7892e833de7e4bcb720"
+    }, {
+      "name" : "Failed to load ApplicationContext",
+      "children" : [ {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "be3724e1ca366807",
+        "parentUid" : "1bbe147fca36e65ab39a243a75635d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599058585063,
+          "stop" : 1599058585064,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bbe147fca36e65ab39a243a75635d24"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "children" : [ {
+        "name" : "closeBrowser",
+        "uid" : "a39e66ada268f95d",
+        "parentUid" : "3322b5d56ab2d43ffab4be5a2a03ee17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599140388370,
+          "stop" : 1599140388371,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3322b5d56ab2d43ffab4be5a2a03ee17"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "filtrerVodohod",
+        "uid" : "3e1a405ef2e87346",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599140872572,
+          "stop" : 1599140921742,
+          "duration" : 49170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

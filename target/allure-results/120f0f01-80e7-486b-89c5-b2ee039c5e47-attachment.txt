@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/one/159042
+{"result":"OK","data":{"id":159042,"number":"ПК-00059835","time":1600846215,"status":12,"crmID":"152729","bookedTo":1600848028,"cruise":11294,"cities":[100500,98,98,98,40,4,5,8,2,98],"promocode":null,"cruiseName":"Очарование русской провинции","motorshipName":"Георгий Жуков","cityStart":98,"cityEnd":98,"cityUturn":5,"dateStart":1601892000,"dateEnd":1602439200,"comment":null,"groupName":null,"passengers":1,"accountable":410393,"owner":701297,"agency":null,"updatedAt":1600846251,"paymentDenied":1,"price":5050400,"registrationTime":1601881200,"paymentAmount":5050400}}
+null

@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/users/current
+{"id":701297,"crmID":"547101","mindboxID":"453704","guid":"ac573c4d-e04f-11ea-96d5-000c294854df","siteID":"82311","type":"3","firstName":"Никита","lastName":"Никитыч","patronymicName":"knkj","email":"n.nickitytch@yandex.ru","phone":"12345678987","sex":1,"birthDate":942278400,"nationality":"1","address":"uohniuu","bonusCardNumber":null,"documentType":1,"documentSeries":"1111","documentNumber":"11 11 111111","documentSeparateSeries":"1111","documentSeparateNumber":"111111","documentIssueDate":942282000,"documentIssuerer":"lom","owner":null,"vip":0,"agency":null,"accountable":null,"updatedAt":1599049441,"createdAt":1597296721}
+null

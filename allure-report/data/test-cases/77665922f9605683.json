@@ -1,0 +1,281 @@
+{
+  "uid" : "77665922f9605683",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1599133586674,
+    "stop" : 1599133628288,
+    "duration" : 41614
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: div[class='s-confirm__btn b-btn b-btn--big b-btn--red']' (tried for 15 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: div[class='s-confirm__btn b-btn b-btn--big b-btn--red']' (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.qa.ui.pageobject.BasePage.shortWaitElementToBeClickable(BasePage.java:51)\r\n\tat ru.qa.ui.pageobject.MainBookingCruise.fillform(MainBookingCruise.java:169)\r\n\tat ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:46)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:240)\r\n\tat org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:593)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: div[class='s-confirm__btn b-btn b-btn--big b-btn--red']\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11412, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b074033b-1a16-43b9-8977-2eea808c47da\n*** Element info: {Using=css selector, value=div[class='s-confirm__btn b-btn b-btn--big b-btn--red']}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy44.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\t... 33 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1599133577545,
+      "stop" : 1599133577552,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1599133577553,
+      "stop" : 1599133581471,
+      "duration" : 3918
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1599133581551,
+      "stop" : 1599133586647,
+      "duration" : 5096
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1599133581484,
+      "stop" : 1599133581487,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1599133632185,
+      "stop" : 1599133632186,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1599133632182,
+      "stop" : 1599133632183,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1599133628295,
+      "stop" : 1599133632179,
+      "duration" : 3884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c855d685aa71bdfd",
+      "name" : "JXRj.png",
+      "source" : "c855d685aa71bdfd.png",
+      "type" : "image/png",
+      "size" : 44871
+    }, {
+      "uid" : "c0a6894fcd268ee4",
+      "name" : "[Thu Sep 03 14:46:32 MSK 2020] https://api-crs.vodohod.com/ru/cruises/room-tariffs/9644",
+      "source" : "c0a6894fcd268ee4.txt",
+      "type" : "text/plain",
+      "size" : 39180
+    }, {
+      "uid" : "54b830e9f4408f0f",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/users/document-types",
+      "source" : "54b830e9f4408f0f.txt",
+      "type" : "text/plain",
+      "size" : 357
+    }, {
+      "uid" : "d26a0049ede28519",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/cruises/one/9644?with=offers,destinations,theme,cities,motorship/svgScheme,motorship/class,cityStart,cityEnd,cityUturn",
+      "source" : "d26a0049ede28519.txt",
+      "type" : "text/plain",
+      "size" : 190813
+    }, {
+      "uid" : "ffd68d023fef6ee3",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/rooms/9644?with=side,roomClass",
+      "source" : "ffd68d023fef6ee3.txt",
+      "type" : "text/plain",
+      "size" : 141302
+    }, {
+      "uid" : "e875e3073b1706ab",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/decks/9644",
+      "source" : "e875e3073b1706ab.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    }, {
+      "uid" : "72ab53d448d11d30",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/adds/9644?with=type,price",
+      "source" : "72ab53d448d11d30.txt",
+      "type" : "text/plain",
+      "size" : 8071
+    }, {
+      "uid" : "eca21c356dc4ad0a",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/security/authorise",
+      "source" : "eca21c356dc4ad0a.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "5edff6c03a53d09d",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=711&with=media,accommodationsTypes,minPrice",
+      "source" : "5edff6c03a53d09d.txt",
+      "type" : "text/plain",
+      "size" : 1323
+    }, {
+      "uid" : "8e40c1c4fa0a3ac3",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=588&with=media,accommodationsTypes,minPrice",
+      "source" : "8e40c1c4fa0a3ac3.txt",
+      "type" : "text/plain",
+      "size" : 6130
+    }, {
+      "uid" : "6c0d113e5aedfa49",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=589&with=media,accommodationsTypes,minPrice",
+      "source" : "6c0d113e5aedfa49.txt",
+      "type" : "text/plain",
+      "size" : 8709
+    }, {
+      "uid" : "23af3995de94719d",
+      "name" : "[Thu Sep 03 14:46:36 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=590&with=media,accommodationsTypes,minPrice",
+      "source" : "23af3995de94719d.txt",
+      "type" : "text/plain",
+      "size" : 3737
+    }, {
+      "uid" : "d12f40ab7c14c2f8",
+      "name" : "[Thu Sep 03 14:46:37 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "d12f40ab7c14c2f8.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "ba76fd40c6fe0045",
+      "name" : "[Thu Sep 03 14:46:37 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null",
+      "source" : "ba76fd40c6fe0045.txt",
+      "type" : "text/plain",
+      "size" : 306
+    }, {
+      "uid" : "a0f0077ae551b788",
+      "name" : "[Thu Sep 03 14:46:37 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "a0f0077ae551b788.txt",
+      "type" : "text/plain",
+      "size" : 672
+    }, {
+      "uid" : "ff3cadb80616c303",
+      "name" : "[Thu Sep 03 14:46:38 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImQ2Y2VlMWFiZWNhM2VhNDYyNjYxZDg5NzY1MWYwM2MxYTNkN2E3ODBjYzFhYTI3MDk0M2IyNGVlNmRlODg5ZmU0NzY5ODE3ZGEzZGEwNmNmIiwiaWF0IjoxNTk5MTMwMDYxLCJuYmYiOjE1OTkxMzAwNjEsImV4cCI6MTU5OTIxNjQ2MSwic3ViIjoiNjk2OTA2Iiwic2NvcGVzIjpbInRlc3QiXX0.egtSuAUd3PAitQ6VCge1hTMROA9sAk9fhJ5nBcJUM7_D3nkcJd8ZzQHOqFP3KpdDtCkISd-n-wZl_9B2uzWUAEHIqg7N9eYm1u5NX00KRNwxE5zv6OmVK4LohxgrOh5Q-L4XGuE3E5QM2Jpg2HdBCXwDxrMw6R5hxFYks6jkJ28X8Lbw3rUpXETFOiI6E9dyDmJMa2uh49sxQx-glYbE-V5MgUbqLVNI3N4B5_HVPdf0mV5_1D0_xCNj8RB2Zw-Gn6l6LQ5LykPo69ws0BfR3DszHtw-3ADEZJ1MYzV74nao3NprXt-9xirPXbbQtYyDCQglmhTXifau63FLj0o3KA&crs_user_id=undefined",
+      "source" : "ff3cadb80616c303.txt",
+      "type" : "text/plain",
+      "size" : 803
+    }, {
+      "uid" : "3a88c806bb4173a7",
+      "name" : "[Thu Sep 03 14:46:39 MSK 2020] https://api-crs.vodohod.com/ru/booking/accommodations/488644?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price",
+      "source" : "3a88c806bb4173a7.txt",
+      "type" : "text/plain",
+      "size" : 2786
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 17
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "11996@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77665922f9605683.json",
+  "parameterValues" : [ ]
+}

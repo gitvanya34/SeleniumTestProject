@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/booking/accommodations/488677?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price
+null
+No response received

@@ -1,0 +1,2073 @@
+{
+  "uid" : "3e1a405ef2e87346",
+  "name" : "filtrerVodohod",
+  "fullName" : "ru.qa.ui.TestVodohodAuto.filtrerVodohod",
+  "historyId" : "f8af76dc60d4fa15f66d1da7750dc658",
+  "time" : {
+    "start" : 1599140872572,
+    "stop" : 1599140921742,
+    "duration" : 49170
+  },
+  "description" : "Verify user registration correct value.",
+  "descriptionHtml" : "<p>Verify user registration correct value.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "expected [true] but found [false]",
+  "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat org.testng.Assert.assertTrue(Assert.java:53)\r\n\tat ru.qa.ui.TestVodohodAuto.filtrerVodohod(TestVodohodAuto.java:42)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:240)\r\n\tat org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:181)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:593)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1599140863655,
+      "stop" : 1599140863661,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1599140863662,
+      "stop" : 1599140867612,
+      "duration" : 3950
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "initBrowser",
+    "time" : {
+      "start" : 1599140867697,
+      "stop" : 1599140872547,
+      "duration" : 4850
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1599140867624,
+      "stop" : 1599140867624,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1599140924833,
+      "stop" : 1599140924833,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1599140921742,
+      "stop" : 1599140924817,
+      "duration" : 3075
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e052a0901a40f855",
+      "name" : "JXRj.png",
+      "source" : "e052a0901a40f855.png",
+      "type" : "image/png",
+      "size" : 509892
+    }, {
+      "uid" : "4044866af734f859",
+      "name" : "[Thu Sep 03 16:47:58 MSK 2020] https://api-crs.vodohod.com/ru/cruises/room-tariffs/9644",
+      "source" : "4044866af734f859.txt",
+      "type" : "text/plain",
+      "size" : 39180
+    }, {
+      "uid" : "e2481f313bf4d765",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/users/document-types",
+      "source" : "e2481f313bf4d765.txt",
+      "type" : "text/plain",
+      "size" : 357
+    }, {
+      "uid" : "c87ad515a365cb8d",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/cruises/one/9644?with=offers,destinations,theme,cities,motorship/svgScheme,motorship/class,cityStart,cityEnd,cityUturn",
+      "source" : "c87ad515a365cb8d.txt",
+      "type" : "text/plain",
+      "size" : 190813
+    }, {
+      "uid" : "54ab37a477be6aa6",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/booking/decks/9644",
+      "source" : "54ab37a477be6aa6.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    }, {
+      "uid" : "e146841e437be381",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/booking/rooms/9644?with=side,roomClass",
+      "source" : "e146841e437be381.txt",
+      "type" : "text/plain",
+      "size" : 141302
+    }, {
+      "uid" : "579110fda1ddee43",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/booking/adds/9644?with=type,price",
+      "source" : "579110fda1ddee43.txt",
+      "type" : "text/plain",
+      "size" : 8071
+    }, {
+      "uid" : "99b240077f697f7c",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/security/authorise",
+      "source" : "99b240077f697f7c.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "99031ee00f28829b",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=711&with=media,accommodationsTypes,minPrice",
+      "source" : "99031ee00f28829b.txt",
+      "type" : "text/plain",
+      "size" : 1323
+    }, {
+      "uid" : "ce7676a66ea626f2",
+      "name" : "[Thu Sep 03 16:48:02 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=588&with=media,accommodationsTypes,minPrice",
+      "source" : "ce7676a66ea626f2.txt",
+      "type" : "text/plain",
+      "size" : 6130
+    }, {
+      "uid" : "bcdceaa0929a7f4f",
+      "name" : "[Thu Sep 03 16:48:03 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=589&with=media,accommodationsTypes,minPrice",
+      "source" : "bcdceaa0929a7f4f.txt",
+      "type" : "text/plain",
+      "size" : 8709
+    }, {
+      "uid" : "f377e1d81df0d01c",
+      "name" : "[Thu Sep 03 16:48:03 MSK 2020] https://api-crs.vodohod.com/ru/booking/room-classes/9644?filter[deck][0]=590&with=media,accommodationsTypes,minPrice",
+      "source" : "f377e1d81df0d01c.txt",
+      "type" : "text/plain",
+      "size" : 3737
+    }, {
+      "uid" : "4651789a6eaa794f",
+      "name" : "[Thu Sep 03 16:48:03 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "4651789a6eaa794f.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "f62fdb29cb793f1",
+      "name" : "[Thu Sep 03 16:48:03 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "f62fdb29cb793f1.txt",
+      "type" : "text/plain",
+      "size" : 672
+    }, {
+      "uid" : "529a891d849f6ca0",
+      "name" : "[Thu Sep 03 16:48:04 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImQ1MWU3NzcwNjkyOTZhYTVlMzE2YjZjNWY1ZDY5ZWViNjcyYzUxMGRiNTc0NTE5ZDBkYjFiOGU5NDBlNzU1MzQzMmU2NTg0MTZiMDNmOTA2IiwiaWF0IjoxNTk5MTM3MzQ3LCJuYmYiOjE1OTkxMzczNDcsImV4cCI6MTU5OTIyMzc0Nywic3ViIjoiNjk2OTA2Iiwic2NvcGVzIjpbInRlc3QiXX0.mecAeeyHqPzHesIcX4NyoQkdzsZF8vcPU7d_634yc_Gr8IBn19QdrrAsOAroNogmGWuscKI2BXHpSn6NVi87wzBRQNGWvstHgLxu4M6OBs0kmoRDgYX3BIlsKgQctYeYtGY0FjNksrjDm4mQyPOuuE3xscGlT0AxlDVfOkoKFkZLGkqlrg2WYqi1zkALG-6OwdY6KlE-xJslznYCFDSg3Wy_r7FBbJPZ2BhYkGoRD5hs-lmm0mhcf_pve6g5-q0xcQNoyoFnCd4u0nI6irBuisXWUVl5oYyYUfQ8Njs0QR0Njnn-5EyG5iqyEit5LfE2_TwqPhj6E0TlOeCZwrsq9w&crs_user_id=undefined",
+      "source" : "529a891d849f6ca0.txt",
+      "type" : "text/plain",
+      "size" : 803
+    }, {
+      "uid" : "b0dfb614e6780d04",
+      "name" : "[Thu Sep 03 16:48:04 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_order_bonuses?id=null",
+      "source" : "b0dfb614e6780d04.txt",
+      "type" : "text/plain",
+      "size" : 306
+    }, {
+      "uid" : "afba2d1cab93893",
+      "name" : "[Thu Sep 03 16:48:06 MSK 2020] https://api-crs.vodohod.com/ru/booking/accommodations/488676?with=tariffs/price,childTariffs/price,infantTariffs/price,extraTariffs/price",
+      "source" : "afba2d1cab93893.txt",
+      "type" : "text/plain",
+      "size" : 2786
+    }, {
+      "uid" : "796c495414c5006c",
+      "name" : "[Thu Sep 03 16:48:19 MSK 2020] https://api-crs.vodohod.com/ru/orders/book-room",
+      "source" : "796c495414c5006c.txt",
+      "type" : "text/plain",
+      "size" : 54
+    }, {
+      "uid" : "76e5524d3510f77e",
+      "name" : "[Thu Sep 03 16:48:19 MSK 2020] https://api-crs.vodohod.com/ru/orders/book-room",
+      "source" : "76e5524d3510f77e.txt",
+      "type" : "text/plain",
+      "size" : 167
+    }, {
+      "uid" : "defebce578232885",
+      "name" : "[Thu Sep 03 16:48:20 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "defebce578232885.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "af47a378e8f068ee",
+      "name" : "[Thu Sep 03 16:48:20 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "af47a378e8f068ee.txt",
+      "type" : "text/plain",
+      "size" : 112609
+    }, {
+      "uid" : "9a78229716da2229",
+      "name" : "[Thu Sep 03 16:48:27 MSK 2020] https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "9a78229716da2229.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "8706182c5d0decd2",
+      "name" : "[Thu Sep 03 16:48:27 MSK 2020] https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "8706182c5d0decd2.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "ef25f9d7d65977ad",
+      "name" : "[Thu Sep 03 16:48:27 MSK 2020] https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "ef25f9d7d65977ad.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "caf7293be268ceea",
+      "name" : "[Thu Sep 03 16:48:28 MSK 2020] https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "caf7293be268ceea.txt",
+      "type" : "text/plain",
+      "size" : 90
+    }, {
+      "uid" : "15e942e2546e3c52",
+      "name" : "[Thu Sep 03 16:48:30 MSK 2020] https://api-crs.vodohod.com/security/authorise",
+      "source" : "15e942e2546e3c52.txt",
+      "type" : "text/plain",
+      "size" : 1579
+    }, {
+      "uid" : "41d9fd7873e58242",
+      "name" : "[Thu Sep 03 16:48:31 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "41d9fd7873e58242.txt",
+      "type" : "text/plain",
+      "size" : 63
+    }, {
+      "uid" : "d7db3ba0ee3847ae",
+      "name" : "[Thu Sep 03 16:48:31 MSK 2020] https://api-crs.vodohod.com/ru/users/current?with=agency",
+      "source" : "d7db3ba0ee3847ae.txt",
+      "type" : "text/plain",
+      "size" : 707
+    }, {
+      "uid" : "d9c1694b80fb2be0",
+      "name" : "[Thu Sep 03 16:48:31 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_travel_companions?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImFjYjNlZWE3MmViMzBjN2EyYjY5MmQxOGI3ODYwMDIwMTM4YjM4MDYyZDAxYjJiYThkODA5YjI3NjdlYWI3N2U1YTZkNWExYzk4MzY1NjBlIiwiaWF0IjoxNTk5MTM3Mzc1LCJuYmYiOjE1OTkxMzczNzUsImV4cCI6MTU5OTIyMzc3NSwic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.dpzri3YSTHr1_92iDBheJqjHA2iNCERW9sYyvL2YHFMe0n7wtrf_-sH3f0wpzwCJyigSKP2tgTmQiM0ZwbxcLhzcDIUlaWssJSHxWBP7_7l-I0VvmcCAHT89Jdih9QRxAFZEJeKJUGNdgyxd1KYtfsKgv1q8xptFbO_VPVJMoexxqJOIFcyQu0hqtBXu6-eQJlZ9nocJEbVs0huy3Kc1faW3Pk_nch5NesU0aHeHdUNhI87251RfdVQAC_27-fJzB8hLICgeNIzT2xkeJhBhPwFgjE4zJhacjms9ly3QyazFl7CwGXWV52D4fB-KrxN8IbqPGw-hkZ7SSKvsQ1f5BA&crs_user_id=701297",
+      "source" : "d9c1694b80fb2be0.txt",
+      "type" : "text/plain",
+      "size" : 969
+    }, {
+      "uid" : "56a7ea31076b66df",
+      "name" : "[Thu Sep 03 16:48:31 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/get_user_balance?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImFjYjNlZWE3MmViMzBjN2EyYjY5MmQxOGI3ODYwMDIwMTM4YjM4MDYyZDAxYjJiYThkODA5YjI3NjdlYWI3N2U1YTZkNWExYzk4MzY1NjBlIiwiaWF0IjoxNTk5MTM3Mzc1LCJuYmYiOjE1OTkxMzczNzUsImV4cCI6MTU5OTIyMzc3NSwic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.dpzri3YSTHr1_92iDBheJqjHA2iNCERW9sYyvL2YHFMe0n7wtrf_-sH3f0wpzwCJyigSKP2tgTmQiM0ZwbxcLhzcDIUlaWssJSHxWBP7_7l-I0VvmcCAHT89Jdih9QRxAFZEJeKJUGNdgyxd1KYtfsKgv1q8xptFbO_VPVJMoexxqJOIFcyQu0hqtBXu6-eQJlZ9nocJEbVs0huy3Kc1faW3Pk_nch5NesU0aHeHdUNhI87251RfdVQAC_27-fJzB8hLICgeNIzT2xkeJhBhPwFgjE4zJhacjms9ly3QyazFl7CwGXWV52D4fB-KrxN8IbqPGw-hkZ7SSKvsQ1f5BA&crs_user_id=701297",
+      "source" : "56a7ea31076b66df.txt",
+      "type" : "text/plain",
+      "size" : 2035
+    }, {
+      "uid" : "53ca0f6406eeb8e0",
+      "name" : "[Thu Sep 03 16:48:33 MSK 2020] https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "53ca0f6406eeb8e0.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "b7358d5f7bbb3273",
+      "name" : "[Thu Sep 03 16:48:33 MSK 2020] https://api-crs.vodohod.com/ru/users/check-email",
+      "source" : "b7358d5f7bbb3273.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "1a494828fd824c99",
+      "name" : "[Thu Sep 03 16:48:34 MSK 2020] https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "1a494828fd824c99.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "7177727853605d40",
+      "name" : "[Thu Sep 03 16:48:34 MSK 2020] https://api-crs.vodohod.com/ru/users/check-phone",
+      "source" : "7177727853605d40.txt",
+      "type" : "text/plain",
+      "size" : 150
+    }, {
+      "uid" : "25618c9d9f568a06",
+      "name" : "[Thu Sep 03 16:48:34 MSK 2020] https://api-crs.vodohod.com/ru/users/update-user/701297",
+      "source" : "25618c9d9f568a06.txt",
+      "type" : "text/plain",
+      "size" : 62
+    }, {
+      "uid" : "ed8ba36aef3a3e27",
+      "name" : "[Thu Sep 03 16:48:35 MSK 2020] https://api-crs.vodohod.com/ru/users/update-user/701297",
+      "source" : "ed8ba36aef3a3e27.txt",
+      "type" : "text/plain",
+      "size" : 149
+    }, {
+      "uid" : "aa5ef84d1b45d090",
+      "name" : "[Thu Sep 03 16:48:35 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/update_user?user_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjbGllbnRfdGVzdCIsImp0aSI6ImFjYjNlZWE3MmViMzBjN2EyYjY5MmQxOGI3ODYwMDIwMTM4YjM4MDYyZDAxYjJiYThkODA5YjI3NjdlYWI3N2U1YTZkNWExYzk4MzY1NjBlIiwiaWF0IjoxNTk5MTM3Mzc1LCJuYmYiOjE1OTkxMzczNzUsImV4cCI6MTU5OTIyMzc3NSwic3ViIjoiNzAxMjk3Iiwic2NvcGVzIjpbInRlc3QiXX0.dpzri3YSTHr1_92iDBheJqjHA2iNCERW9sYyvL2YHFMe0n7wtrf_-sH3f0wpzwCJyigSKP2tgTmQiM0ZwbxcLhzcDIUlaWssJSHxWBP7_7l-I0VvmcCAHT89Jdih9QRxAFZEJeKJUGNdgyxd1KYtfsKgv1q8xptFbO_VPVJMoexxqJOIFcyQu0hqtBXu6-eQJlZ9nocJEbVs0huy3Kc1faW3Pk_nch5NesU0aHeHdUNhI87251RfdVQAC_27-fJzB8hLICgeNIzT2xkeJhBhPwFgjE4zJhacjms9ly3QyazFl7CwGXWV52D4fB-KrxN8IbqPGw-hkZ7SSKvsQ1f5BA&crs_user_id=701297&name=%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0&last_name=%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D1%8B%D1%87&second_name=knkj&birthday=11.11.1999&gender=M&phone=12345678987&doctype=1&docnumber=111111&docseries=1111&docdate=11.11.1999&docissuerer=lom&address=uohniuu",
+      "source" : "aa5ef84d1b45d090.txt",
+      "type" : "text/plain",
+      "size" : 1239
+    }, {
+      "uid" : "cb2972b061a42160",
+      "name" : "[Thu Sep 03 16:48:35 MSK 2020] https://api-crs.vodohod.com/ru/orders/set-owner/85412",
+      "source" : "cb2972b061a42160.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "8c95e6cd7299f2ef",
+      "name" : "[Thu Sep 03 16:48:35 MSK 2020] https://api-crs.vodohod.com/ru/orders/set-owner/85412",
+      "source" : "8c95e6cd7299f2ef.txt",
+      "type" : "text/plain",
+      "size" : 134
+    }, {
+      "uid" : "9249038a0921fcb6",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "9249038a0921fcb6.txt",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "710696e1b2d33c85",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "710696e1b2d33c85.txt",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "98ca1bed2181dffb",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "98ca1bed2181dffb.txt",
+      "type" : "text/plain",
+      "size" : 88
+    }, {
+      "uid" : "db646bc057ed28a5",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/passengers/add",
+      "source" : "db646bc057ed28a5.txt",
+      "type" : "text/plain",
+      "size" : 88
+    }, {
+      "uid" : "3c2c9565cc249ab6",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "3c2c9565cc249ab6.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "200a5c6d6f0f5826",
+      "name" : "[Thu Sep 03 16:48:36 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "200a5c6d6f0f5826.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "8239e11ca962c587",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "8239e11ca962c587.txt",
+      "type" : "text/plain",
+      "size" : 132
+    }, {
+      "uid" : "659886fbbdc0011c",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-passenger",
+      "source" : "659886fbbdc0011c.txt",
+      "type" : "text/plain",
+      "size" : 132
+    }, {
+      "uid" : "dc3bfe8aa656a193",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/register_user_mindbox?data={%22customer%22:{%22email%22:%22n.nickitytch@yandex.ru%22,%22mobilePhone%22:%22+1%20(111)%20111-1111%22,%22lastName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%22,%22firstName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%D1%8B%D1%87%22,%22birthDate%22:%2211.11.1999%22,%22sex%22:%22male%22,%22ids%22:{%22bookingSystemId%22:710812,%22crmId%22:557965},%22customFields%22:{%22status%22:[%22%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80%22],%22nationality%22:%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22},%22subscriptions%22:[{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Email%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22},{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Sms%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22}]}}",
+      "source" : "dc3bfe8aa656a193.txt",
+      "type" : "text/plain",
+      "size" : 1205
+    }, {
+      "uid" : "665287540f99d1d7",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://bxapi.vodohod.com/rest/1/qyi72zk41gcaqpho/register_user_mindbox?data={%22customer%22:{%22email%22:%22n.nickitytch@yandex.ru%22,%22mobilePhone%22:%22+1%20(111)%20111-1111%22,%22lastName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%22,%22firstName%22:%22%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%D1%8B%D1%87%22,%22birthDate%22:%2211.11.1999%22,%22sex%22:%22male%22,%22ids%22:{%22bookingSystemId%22:710813,%22crmId%22:557966},%22customFields%22:{%22status%22:[%22%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80%22],%22nationality%22:%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22},%22subscriptions%22:[{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Email%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22},{%22brand%22:%22Vodohod%22,%22pointOfContact%22:%22Sms%22,%22valueByDefault%22:%22true%22,%22isSubscribed%22:%22false%22}]}}",
+      "source" : "665287540f99d1d7.txt",
+      "type" : "text/plain",
+      "size" : 1208
+    }, {
+      "uid" : "f9b7b36cbbdb7fe2",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://api-crs.vodohod.com/ru/passengers/update/85412/710813",
+      "source" : "f9b7b36cbbdb7fe2.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "4fad49f5940fbe00",
+      "name" : "[Thu Sep 03 16:48:37 MSK 2020] https://api-crs.vodohod.com/ru/passengers/update/85412/710813",
+      "source" : "4fad49f5940fbe00.txt",
+      "type" : "text/plain",
+      "size" : 251
+    }, {
+      "uid" : "dd67fba0e3c17fdd",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/passengers/update/85412/710812",
+      "source" : "dd67fba0e3c17fdd.txt",
+      "type" : "text/plain",
+      "size" : 68
+    }, {
+      "uid" : "779c76fe6f871651",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/passengers/update/85412/710812",
+      "source" : "779c76fe6f871651.txt",
+      "type" : "text/plain",
+      "size" : 251
+    }, {
+      "uid" : "88fcc37652c0c1fd",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "88fcc37652c0c1fd.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "30054f199a113d43",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/orders/set-crmID/85412",
+      "source" : "30054f199a113d43.txt",
+      "type" : "text/plain",
+      "size" : 60
+    }, {
+      "uid" : "e1abdea9098adddd",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "e1abdea9098adddd.txt",
+      "type" : "text/plain",
+      "size" : 661
+    }, {
+      "uid" : "1b8fb0b061a726d2",
+      "name" : "[Thu Sep 03 16:48:38 MSK 2020] https://api-crs.vodohod.com/ru/orders/set-crmID/85412",
+      "source" : "1b8fb0b061a726d2.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "7170aae6f7f41046",
+      "name" : "[Thu Sep 03 16:48:39 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "7170aae6f7f41046.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "f2772c670b363e9c",
+      "name" : "[Thu Sep 03 16:48:39 MSK 2020] https://api-crs.vodohod.com/ru/orders/one/85412?with=adds/price,rooms/documents,rooms/room/deck/svgScheme,discounts,mainContract,souvenirs/price,excursions/price,excursions/excursion,cityEnd,cityStart,cityUturn,cities,owner,rooms/order,rooms/accommodation,rooms/room/side,rooms/tariffs/price,rooms/infantsTariffs/price,price,rooms/childrenTariffs/price,rooms/extraTariffs/price,rooms/passengers,rooms/childrenPassengers,rooms/infantsPassengers,rooms/extraPassengers,adds/type,receiptPayments",
+      "source" : "f2772c670b363e9c.txt",
+      "type" : "text/plain",
+      "size" : 661
+    }, {
+      "uid" : "21babee6346024d2",
+      "name" : "[Thu Sep 03 16:48:39 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-add/85412",
+      "source" : "21babee6346024d2.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "c9b32f322eee549b",
+      "name" : "[Thu Sep 03 16:48:40 MSK 2020] https://api-crs.vodohod.com/ru/orders/add-add/85412",
+      "source" : "c9b32f322eee549b.txt",
+      "type" : "text/plain",
+      "size" : 246
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 61
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1599140924817,
+      "stop" : 1599140924833,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "testMethod",
+    "value" : "filtrerVodohod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Vodohod1"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.ui.TestVodohodAuto"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UM56MIO"
+  }, {
+    "name" : "thread",
+    "value" : "13216@DESKTOP-UM56MIO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "750d3308c98a28bf",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599140783900,
+        "stop" : 1599140832493,
+        "duration" : 48593
+      }
+    }, {
+      "uid" : "a956bc6e22f0fa80",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599140560026,
+        "stop" : 1599140609545,
+        "duration" : 49519
+      }
+    }, {
+      "uid" : "4b499ba3875a197b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599140454707,
+        "stop" : 1599140523806,
+        "duration" : 69099
+      }
+    }, {
+      "uid" : "8a09f5ab8ac613b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599140314332,
+        "stop" : 1599140384982,
+        "duration" : 70650
+      }
+    }, {
+      "uid" : "d84ef3750d35ede0",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599140229337,
+        "stop" : 1599140231017,
+        "duration" : 1680
+      }
+    }, {
+      "uid" : "ea12cecf69ed3e0a",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599140199284,
+        "stop" : 1599140205536,
+        "duration" : 6252
+      }
+    }, {
+      "uid" : "83ca3448fee8c5ad",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599136566080,
+        "stop" : 1599136613986,
+        "duration" : 47906
+      }
+    }, {
+      "uid" : "4143234e2d6c3be1",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599136352063,
+        "stop" : 1599136400638,
+        "duration" : 48575
+      }
+    }, {
+      "uid" : "881df600da7ecec4",
+      "status" : "broken",
+      "statusDetails" : "Failed to decode response from marionette\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4776, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8ca1f095-35c6-43d0-8fcd-8a2fd7153608\n*** Element info: {Using=xpath, value=.//input[@id='user_password']}",
+      "time" : {
+        "start" : 1599134520742,
+        "stop" : 1599134550719,
+        "duration" : 29977
+      }
+    }, {
+      "uid" : "995e252c01183b93",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
+      "time" : {
+        "start" : 1599134467950,
+        "stop" : 1599134505889,
+        "duration" : 37939
+      }
+    }, {
+      "uid" : "8257d2c85df68cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599134329718,
+        "stop" : 1599134390412,
+        "duration" : 60694
+      }
+    }, {
+      "uid" : "efda1dbf3f6f56d8",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"b-btn b-btn--red b-btn--next\"> is not clickable at point (1464,1024) because another element <section class=\"e-b-m\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 16084, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5b6070a1-fcee-46a0-8151-35c5183bf50e",
+      "time" : {
+        "start" : 1599134060496,
+        "stop" : 1599134101799,
+        "duration" : 41303
+      }
+    }, {
+      "uid" : "fd8c230b64f985cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599133976613,
+        "stop" : 1599134038548,
+        "duration" : 61935
+      }
+    }, {
+      "uid" : "75a87280674a6a44",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1599133943059,
+        "stop" : 1599133955917,
+        "duration" : 12858
+      }
+    }, {
+      "uid" : "48e438d140efe40a",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"b-btn b-btn--red b-btn--next\"> is not clickable at point (1464,985) because another element <section class=\"e-b-m\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3664, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5764cb26-3fd5-43b5-b514-9afda88af312",
+      "time" : {
+        "start" : 1599133877980,
+        "stop" : 1599133926411,
+        "duration" : 48431
+      }
+    }, {
+      "uid" : "b8f02a94e20e2009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599133725845,
+        "stop" : 1599133813471,
+        "duration" : 87626
+      }
+    }, {
+      "uid" : "63a4c9871ae33439",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"s-confirm__btn-next b-btn b-btn--big b-btn--red b-btn--small-text\"> is not clickable at point (1193,651) because another element <span class=\"multiselect__option multiselect__option--highlight\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7488, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: cdfad45c-57bd-42b6-baaf-735c82149904",
+      "time" : {
+        "start" : 1599133665968,
+        "stop" : 1599133697866,
+        "duration" : 31898
+      }
+    }, {
+      "uid" : "77665922f9605683",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: div[class='s-confirm__btn b-btn b-btn--big b-btn--red']' (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1599133586674,
+        "stop" : 1599133628288,
+        "duration" : 41614
+      }
+    }, {
+      "uid" : "c37ad42fc936ead4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (c7f6c506-3202-41cd-9f6c-b29b2cce0126)] -> css selector: span[class='option__name option__name--single']] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 16308, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c7f6c506-3202-41cd-9f6c-b29b2cce0126",
+      "time" : {
+        "start" : 1599133400501,
+        "stop" : 1599133439951,
+        "duration" : 39450
+      }
+    }, {
+      "uid" : "41fd26336c5151c6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (0668b4be-be41-439d-817f-661b781effa7)] -> css selector: span[class='option__name option__name--single']] (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7512, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0668b4be-be41-439d-817f-661b781effa7",
+      "time" : {
+        "start" : 1599133311633,
+        "stop" : 1599133349679,
+        "duration" : 38046
+      }
+    }, {
+      "uid" : "4192fca8840d6ae1",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"multiselect b-select\"> is not clickable at point (668,33) because another element <span> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8052, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a1e93177-e965-4ee9-b5fd-77c4ffb07d23",
+      "time" : {
+        "start" : 1599133233703,
+        "stop" : 1599133246627,
+        "duration" : 12924
+      }
+    }, {
+      "uid" : "f7743c5f49c9a56e",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> is not clickable at point (647,107) because another element <div class=\"header-bottom__item-value\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4824, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 55d6da5e-c91f-4d74-bcb1-c42c3adf4c5d",
+      "time" : {
+        "start" : 1599133112849,
+        "stop" : 1599133128990,
+        "duration" : 16141
+      }
+    }, {
+      "uid" : "6ee7c5c75987b95d",
+      "status" : "broken",
+      "statusDetails" : "Element <li class=\"\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10840, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b4729fc0-1c97-499e-8a79-b007099f4084",
+      "time" : {
+        "start" : 1599133092679,
+        "stop" : 1599133093858,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "34d2907c9af317cb",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> is not clickable at point (647,88) because another element <div class=\"header-bottom__item-name\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 15932, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e28898a7-f405-4ab3-90bc-b7b9c6fb385d",
+      "time" : {
+        "start" : 1599132924629,
+        "stop" : 1599132941700,
+        "duration" : 17071
+      }
+    }, {
+      "uid" : "188c1cd472d1e372",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> is not clickable at point (647,88) because another element <div class=\"header-bottom__item-name\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6860, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f0a36e5b-a5cd-4dea-bc41-0a6897d49c2e",
+      "time" : {
+        "start" : 1599132868706,
+        "stop" : 1599132884370,
+        "duration" : 15664
+      }
+    }, {
+      "uid" : "87c09f7c2c0e0869",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4672, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f550366c-a26c-408b-ab01-03eab4be42b5",
+      "time" : {
+        "start" : 1599132213930,
+        "stop" : 1599132237141,
+        "duration" : 23211
+      }
+    }, {
+      "uid" : "f14f707e28172a81",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 9184, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 2376451c-5263-4419-8373-9fd1ab5f9c7d",
+      "time" : {
+        "start" : 1599132099975,
+        "stop" : 1599132123821,
+        "duration" : 23846
+      }
+    }, {
+      "uid" : "c27ebaef7c54ffcf",
+      "status" : "broken",
+      "statusDetails" : "Element <span class=\"option__name option__name--single\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6000, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 17eb8a32-fa34-434f-9e99-2dbc90675d54",
+      "time" : {
+        "start" : 1599131999658,
+        "stop" : 1599132016170,
+        "duration" : 16512
+      }
+    }, {
+      "uid" : "b2378faeff97a0d9",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599131915792,
+        "stop" : 1599131932438,
+        "duration" : 16646
+      }
+    }, {
+      "uid" : "699697adde9be0e2",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599131876629,
+        "stop" : 1599131877977,
+        "duration" : 1348
+      }
+    }, {
+      "uid" : "771600ac3d18b7ae",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599131797752,
+        "stop" : 1599131815198,
+        "duration" : 17446
+      }
+    }, {
+      "uid" : "984af2f4bdc27b15",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599124682719,
+        "stop" : 1599124719677,
+        "duration" : 36958
+      }
+    }, {
+      "uid" : "db8dcc4c68c92f8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599124599426,
+        "stop" : 1599124660306,
+        "duration" : 60880
+      }
+    }, {
+      "uid" : "52371a856c84172a",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599124480492,
+        "stop" : 1599124493342,
+        "duration" : 12850
+      }
+    }, {
+      "uid" : "26ae6c1a1c225426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599124391944,
+        "stop" : 1599124455380,
+        "duration" : 63436
+      }
+    }, {
+      "uid" : "6ebaf8619bb11e1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599124289260,
+        "stop" : 1599124353243,
+        "duration" : 63983
+      }
+    }, {
+      "uid" : "be41531e066bb23b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599121172116,
+        "stop" : 1599121235102,
+        "duration" : 62986
+      }
+    }, {
+      "uid" : "a60b2ae7f298f6f7",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599119494594,
+        "stop" : 1599119535869,
+        "duration" : 41275
+      }
+    }, {
+      "uid" : "925f03a7a77e1738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599119373773,
+        "stop" : 1599119444092,
+        "duration" : 70319
+      }
+    }, {
+      "uid" : "ed3910c8250907f2",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1599118456417,
+        "stop" : 1599118468787,
+        "duration" : 12370
+      }
+    }, {
+      "uid" : "c9c07c2f957771ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599118079583,
+        "stop" : 1599118143367,
+        "duration" : 63784
+      }
+    }, {
+      "uid" : "2c04a8da61cc3173",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
+      "time" : {
+        "start" : 1599117982765,
+        "stop" : 1599118020048,
+        "duration" : 37283
+      }
+    }, {
+      "uid" : "ce9dff58d9350427",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1599117942262,
+        "stop" : 1599117955625,
+        "duration" : 13363
+      }
+    }, {
+      "uid" : "697c7e93fe840552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599117822660,
+        "stop" : 1599117885838,
+        "duration" : 63178
+      }
+    }, {
+      "uid" : "e9a3f6bad710d5a6",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1599117747404,
+        "stop" : 1599117761121,
+        "duration" : 13717
+      }
+    }, {
+      "uid" : "b4da32dec48cfdb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599116857233,
+        "stop" : 1599116902452,
+        "duration" : 45219
+      }
+    }, {
+      "uid" : "37ef9515b4020b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599116657799,
+        "stop" : 1599116701080,
+        "duration" : 43281
+      }
+    }, {
+      "uid" : "1cd09cc9f8166cfb",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599116183758,
+        "stop" : 1599116188798,
+        "duration" : 5040
+      }
+    }, {
+      "uid" : "e65b7953cd7f5314",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1599116039105,
+        "stop" : 1599116044174,
+        "duration" : 5069
+      }
+    }, {
+      "uid" : "bd6b4d19834e6533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599115369363,
+        "stop" : 1599115459861,
+        "duration" : 90498
+      }
+    }, {
+      "uid" : "a1fdd52cad4ebdb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599061837222,
+        "stop" : 1599061909074,
+        "duration" : 71852
+      }
+    }, {
+      "uid" : "c25facc04036694d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599061415250,
+        "stop" : 1599061465959,
+        "duration" : 50709
+      }
+    }, {
+      "uid" : "df6fe2e22aaa85fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599061326130,
+        "stop" : 1599061396546,
+        "duration" : 70416
+      }
+    }, {
+      "uid" : "f334c97c6e0818bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599061170439,
+        "stop" : 1599061242652,
+        "duration" : 72213
+      }
+    }, {
+      "uid" : "98305e3ef7bb1ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599061101992,
+        "stop" : 1599061105172,
+        "duration" : 3180
+      }
+    }, {
+      "uid" : "5faea7c13a9dedc7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599060644232,
+        "stop" : 1599060667372,
+        "duration" : 23140
+      }
+    }, {
+      "uid" : "65154743a2be5411",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599060503629,
+        "stop" : 1599060576570,
+        "duration" : 72941
+      }
+    }, {
+      "uid" : "69645cf3d4a1688a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599060372886,
+        "stop" : 1599060387591,
+        "duration" : 14705
+      }
+    }, {
+      "uid" : "af5f09952990931c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599060226299,
+        "stop" : 1599060241935,
+        "duration" : 15636
+      }
+    }, {
+      "uid" : "79318a1dac30aeb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599060178885,
+        "stop" : 1599060194766,
+        "duration" : 15881
+      }
+    }, {
+      "uid" : "690c26b156c52b4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599058654582,
+        "stop" : 1599058728850,
+        "duration" : 74268
+      }
+    }, {
+      "uid" : "da65e71e8bcc9bbc",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599058585143,
+        "stop" : 1599058585146,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "b93028009fdd38f3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599058152119,
+        "stop" : 1599058153706,
+        "duration" : 1587
+      }
+    }, {
+      "uid" : "20315e86aca93329",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599057648040,
+        "stop" : 1599057649124,
+        "duration" : 1084
+      }
+    }, {
+      "uid" : "3a6c633cdbed5d2",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599057620145,
+        "stop" : 1599057620146,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3b68add066c59afe",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599057595512,
+        "stop" : 1599057595515,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "736eb07adb54d55d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599057074470,
+        "stop" : 1599057074473,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "5a6bbf5b8d52fa64",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599056110810,
+        "stop" : 1599056112499,
+        "duration" : 1689
+      }
+    }, {
+      "uid" : "d13d5aede3dcdfdf",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599056050138,
+        "stop" : 1599056050142,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "e3f4b4797031bb3e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599056009173,
+        "stop" : 1599056010779,
+        "duration" : 1606
+      }
+    }, {
+      "uid" : "111b7e6f941583e0",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599055791434,
+        "stop" : 1599055791436,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a0fab752e7f9dd75",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599055758857,
+        "stop" : 1599055758862,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "41c93e3017e6f4cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599055204730,
+        "stop" : 1599055294818,
+        "duration" : 90088
+      }
+    }, {
+      "uid" : "56cf085c8cab2771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599054795725,
+        "stop" : 1599054875812,
+        "duration" : 80087
+      }
+    }, {
+      "uid" : "bbf8f4cd2c95936a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599054345892,
+        "stop" : 1599054419812,
+        "duration" : 73920
+      }
+    }, {
+      "uid" : "d26cc546e64516d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599053478793,
+        "stop" : 1599053493950,
+        "duration" : 15157
+      }
+    }, {
+      "uid" : "1730503850767423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599053414445,
+        "stop" : 1599053428661,
+        "duration" : 14216
+      }
+    }, {
+      "uid" : "87e2074fc826dba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599053328718,
+        "stop" : 1599053344738,
+        "duration" : 16020
+      }
+    }, {
+      "uid" : "17540c4d6a1f19e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599052928404,
+        "stop" : 1599052992306,
+        "duration" : 63902
+      }
+    }, {
+      "uid" : "f2e96ef656847f91",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1599052510748,
+        "stop" : 1599052555836,
+        "duration" : 45088
+      }
+    }, {
+      "uid" : "1931202278afcb98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599052195682,
+        "stop" : 1599052242648,
+        "duration" : 46966
+      }
+    }, {
+      "uid" : "ff4426cc45993411",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599051912551,
+        "stop" : 1599051986168,
+        "duration" : 73617
+      }
+    }, {
+      "uid" : "50edce96e0c0fb8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599050925258,
+        "stop" : 1599050994751,
+        "duration" : 69493
+      }
+    }, {
+      "uid" : "1cc92fb71306c0c8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//a[contains(text(),'Приобрести')]' (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1599050620784,
+        "stop" : 1599050640902,
+        "duration" : 20118
+      }
+    }, {
+      "uid" : "715f7c2a44329dd5",
+      "status" : "skipped",
+      "statusDetails" : "Failed to load ApplicationContext",
+      "time" : {
+        "start" : 1599050529169,
+        "stop" : 1599050529172,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "f9d6b4a0cd55aa7f",
+      "status" : "broken",
+      "statusDetails" : "Index 0 out of bounds for length 0",
+      "time" : {
+        "start" : 1599050432631,
+        "stop" : 1599050433682,
+        "duration" : 1051
+      }
+    }, {
+      "uid" : "bfa527229cb17787",
+      "status" : "broken",
+      "statusDetails" : "Index 0 out of bounds for length 0",
+      "time" : {
+        "start" : 1599050313070,
+        "stop" : 1599050314439,
+        "duration" : 1369
+      }
+    }, {
+      "uid" : "8dd999ac4593ab45",
+      "status" : "broken",
+      "statusDetails" : "Index 0 out of bounds for length 0",
+      "time" : {
+        "start" : 1599050223675,
+        "stop" : 1599050224741,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "de5922038e5113ef",
+      "status" : "broken",
+      "statusDetails" : "Index 0 out of bounds for length 0",
+      "time" : {
+        "start" : 1599049757327,
+        "stop" : 1599049762257,
+        "duration" : 4930
+      }
+    }, {
+      "uid" : "f8b84a32821047b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599047315729,
+        "stop" : 1599047382719,
+        "duration" : 66990
+      }
+    }, {
+      "uid" : "d9a4bc255a01de78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599047142308,
+        "stop" : 1599047221951,
+        "duration" : 79643
+      }
+    }, {
+      "uid" : "7b00c2177f27e4c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599047083126,
+        "stop" : 1599047116940,
+        "duration" : 33814
+      }
+    }, {
+      "uid" : "890147a66b89675",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599046821887,
+        "stop" : 1599046884223,
+        "duration" : 62336
+      }
+    }, {
+      "uid" : "de5a6dd15851d1f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599046640343,
+        "stop" : 1599046708419,
+        "duration" : 68076
+      }
+    }, {
+      "uid" : "bcaccdb69145e7f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599042941438,
+        "stop" : 1599043007510,
+        "duration" : 66072
+      }
+    }, {
+      "uid" : "73fa3ba3d966f22e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599042725790,
+        "stop" : 1599042791431,
+        "duration" : 65641
+      }
+    }, {
+      "uid" : "bd83352938cd784d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599042650517,
+        "stop" : 1599042681456,
+        "duration" : 30939
+      }
+    }, {
+      "uid" : "71ec6b5d9ed05939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599042506171,
+        "stop" : 1599042572304,
+        "duration" : 66133
+      }
+    }, {
+      "uid" : "9643f056db991276",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599042342214,
+        "stop" : 1599042373802,
+        "duration" : 31588
+      }
+    }, {
+      "uid" : "d60e4afaa6dbefe6",
+      "status" : "broken",
+      "statusDetails" : "Index 3 out of bounds for length 3",
+      "time" : {
+        "start" : 1599042156471,
+        "stop" : 1599042204491,
+        "duration" : 48020
+      }
+    }, {
+      "uid" : "3ae04821a1afa9ca",
+      "status" : "broken",
+      "statusDetails" : "Index 3 out of bounds for length 3",
+      "time" : {
+        "start" : 1599041975461,
+        "stop" : 1599042044718,
+        "duration" : 69257
+      }
+    }, {
+      "uid" : "512bcc505b4a1979",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599041755637,
+        "stop" : 1599041825574,
+        "duration" : 69937
+      }
+    }, {
+      "uid" : "2edfe6ea2d5c2f2d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599039599639,
+        "stop" : 1599039696464,
+        "duration" : 96825
+      }
+    }, {
+      "uid" : "afa86efffa1ab013",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599038498669,
+        "stop" : 1599038573493,
+        "duration" : 74824
+      }
+    }, {
+      "uid" : "395b00662a95b494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599036182524,
+        "stop" : 1599036253561,
+        "duration" : 71037
+      }
+    }, {
+      "uid" : "5afd1a08680ca932",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599036019396,
+        "stop" : 1599036090656,
+        "duration" : 71260
+      }
+    }, {
+      "uid" : "c7d0d16fee9915b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599035903129,
+        "stop" : 1599035953445,
+        "duration" : 50316
+      }
+    }, {
+      "uid" : "cd54fbb5d816d7fc",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1599034994160,
+        "stop" : 1599035070081,
+        "duration" : 75921
+      }
+    }, {
+      "uid" : "48ac5925bc73f990",
+      "status" : "skipped",
+      "statusDetails" : "Browsing context has been discarded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 7792, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 099f477f-73ef-4c83-83ce-869ee9173c45",
+      "time" : {
+        "start" : 1599034880076,
+        "stop" : 1599034880079,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "fa0423a570245849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599032242147,
+        "stop" : 1599032287749,
+        "duration" : 45602
+      }
+    }, {
+      "uid" : "687907d7ae34c3a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029666970,
+        "stop" : 1599029670028,
+        "duration" : 3058
+      }
+    }, {
+      "uid" : "2938336dee13a13f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599029569094,
+        "stop" : 1599029640009,
+        "duration" : 70915
+      }
+    }, {
+      "uid" : "2d5db3eb0e29ac3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598973336727,
+        "stop" : 1598973379978,
+        "duration" : 43251
+      }
+    }, {
+      "uid" : "4a540ddefe630011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598973102843,
+        "stop" : 1598973177730,
+        "duration" : 74887
+      }
+    }, {
+      "uid" : "3a805d622e560781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598972918092,
+        "stop" : 1598972993014,
+        "duration" : 74922
+      }
+    }, {
+      "uid" : "8e06c6365c271466",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598972564606,
+        "stop" : 1598972635564,
+        "duration" : 70958
+      }
+    }, {
+      "uid" : "cec8260d6eb9a768",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598972507562,
+        "stop" : 1598972522047,
+        "duration" : 14485
+      }
+    }, {
+      "uid" : "c4bb9267f6f6c36e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598972343448,
+        "stop" : 1598972414053,
+        "duration" : 70605
+      }
+    }, {
+      "uid" : "71a83da414a970d4",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1598972296356,
+        "stop" : 1598972310781,
+        "duration" : 14425
+      }
+    }, {
+      "uid" : "5c2b3ed958086cd5",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598972127899,
+        "stop" : 1598972143920,
+        "duration" : 16021
+      }
+    }, {
+      "uid" : "6a779e142886e93d",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598971949747,
+        "stop" : 1598972022871,
+        "duration" : 73124
+      }
+    }, {
+      "uid" : "29a465f87703aaf4",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598971811158,
+        "stop" : 1598971881982,
+        "duration" : 70824
+      }
+    }, {
+      "uid" : "14ac87c58dabc35e",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598971657586,
+        "stop" : 1598971710629,
+        "duration" : 53043
+      }
+    }, {
+      "uid" : "648441016532c6aa",
+      "status" : "skipped",
+      "statusDetails" : "Browsing context has been discarded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 2252, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 750c394f-2a88-4023-bd97-7a2aed043da1",
+      "time" : {
+        "start" : 1598971496803,
+        "stop" : 1598971496804,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fb9065fa30370cdf",
+      "status" : "broken",
+      "statusDetails" : "No serializer found for class ru.qa.ui.pageobject.models.BodyRequest and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS)",
+      "time" : {
+        "start" : 1598969030032,
+        "stop" : 1598969044168,
+        "duration" : 14136
+      }
+    }, {
+      "uid" : "194c2e0e872f0149",
+      "status" : "broken",
+      "statusDetails" : "No serializer found for class ru.qa.ui.pageobject.models.BodyRequest and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS)",
+      "time" : {
+        "start" : 1598968987123,
+        "stop" : 1598968988781,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "58f1cf1fdc970d45",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598967822828,
+        "stop" : 1598967836883,
+        "duration" : 14055
+      }
+    }, {
+      "uid" : "fbf1a01f13f34ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598965372748,
+        "stop" : 1598965415920,
+        "duration" : 43172
+      }
+    }, {
+      "uid" : "6b03cc2491acdac0",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598965253754,
+        "stop" : 1598965327790,
+        "duration" : 74036
+      }
+    }, {
+      "uid" : "cad7cd3c8207120a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598965133514,
+        "stop" : 1598965136390,
+        "duration" : 2876
+      }
+    }, {
+      "uid" : "f7c7b4b6ed3a798f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598965017100,
+        "stop" : 1598965088052,
+        "duration" : 70952
+      }
+    }, {
+      "uid" : "10137f0a1d2b4021",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598964910254,
+        "stop" : 1598964980693,
+        "duration" : 70439
+      }
+    }, {
+      "uid" : "2ee51bc9f650f82c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598964176827,
+        "stop" : 1598964246537,
+        "duration" : 69710
+      }
+    }, {
+      "uid" : "50ede60260c6584d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598963472774,
+        "stop" : 1598963544801,
+        "duration" : 72027
+      }
+    }, {
+      "uid" : "948c8bf00f47fd5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598962972357,
+        "stop" : 1598963066856,
+        "duration" : 94499
+      }
+    }, {
+      "uid" : "911d14d62ddd675a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598960546472,
+        "stop" : 1598960561342,
+        "duration" : 14870
+      }
+    }, {
+      "uid" : "eb52909e7d512422",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598960445832,
+        "stop" : 1598960496782,
+        "duration" : 50950
+      }
+    }, {
+      "uid" : "513d3504fff9abee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598960215029,
+        "stop" : 1598960286881,
+        "duration" : 71852
+      }
+    }, {
+      "uid" : "e6fbbc1de18229cc",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1598959567637,
+        "stop" : 1598959616131,
+        "duration" : 48494
+      }
+    }, {
+      "uid" : "f7ba5cfe7c3ae44c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598953144949,
+        "stop" : 1598953215817,
+        "duration" : 70868
+      }
+    }, {
+      "uid" : "14acebe574537728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598952942986,
+        "stop" : 1598952956898,
+        "duration" : 13912
+      }
+    }, {
+      "uid" : "caa31ab1a2460f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598952482173,
+        "stop" : 1598952532640,
+        "duration" : 50467
+      }
+    }, {
+      "uid" : "ecb6e7bed4def405",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598952400175,
+        "stop" : 1598952446735,
+        "duration" : 46560
+      }
+    }, {
+      "uid" : "7deea272d5f0c6b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598952089930,
+        "stop" : 1598952132787,
+        "duration" : 42857
+      }
+    }, {
+      "uid" : "a844ba4e0ddc58f4",
+      "status" : "broken",
+      "statusDetails" : "Failed to decode response from marionette\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 9988, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 54826ca1-91a9-432f-82d7-a1bf5e01ff31",
+      "time" : {
+        "start" : 1598951974272,
+        "stop" : 1598952041223,
+        "duration" : 66951
+      }
+    }, {
+      "uid" : "d4bcc26d133f0d3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950737584,
+        "stop" : 1598950821455,
+        "duration" : 83871
+      }
+    }, {
+      "uid" : "669aefa95ec26f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950605018,
+        "stop" : 1598950651175,
+        "duration" : 46157
+      }
+    }, {
+      "uid" : "64af9b35433c6fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950531911,
+        "stop" : 1598950581804,
+        "duration" : 49893
+      }
+    }, {
+      "uid" : "aced8a2a4b349be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598950425574,
+        "stop" : 1598950509581,
+        "duration" : 84007
+      }
+    }, {
+      "uid" : "8e9b8be3e10fcc6a",
+      "status" : "skipped",
+      "statusDetails" : "Browsing context has been discarded\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8068, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 4ed4315d-7949-40ad-ae3a-afe87e1cea0a",
+      "time" : {
+        "start" : 1598885441405,
+        "stop" : 1598885441407,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3692381caa602d6d",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"b-btn b-btn--red b-btn--next\"> is not clickable at point (1464,866) because another element <section class=\"e-b-m\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 3296, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1419b931-25b4-4c23-beaa-7be75e3be0d8",
+      "time" : {
+        "start" : 1598873810696,
+        "stop" : 1598873858199,
+        "duration" : 47503
+      }
+    }, {
+      "uid" : "c9eef3d4e60f80df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598873716603,
+        "stop" : 1598873788035,
+        "duration" : 71432
+      }
+    }, {
+      "uid" : "4cca41e585f32f4d",
+      "status" : "broken",
+      "statusDetails" : "Element <li class=\"\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200818235255, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4680, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 37fc9579-39ae-4c51-a20f-e2f801a1a465",
+      "time" : {
+        "start" : 1598873682480,
+        "stop" : 1598873683891,
+        "duration" : 1411
+      }
+    }, {
+      "uid" : "4f26e6e5be96abe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598856248274,
+        "stop" : 1598856317046,
+        "duration" : 68772
+      }
+    }, {
+      "uid" : "d7fd2cc9b3949cb3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: .//*[@class='lk-orders__items'] (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598856096665,
+        "stop" : 1598856220976,
+        "duration" : 124311
+      }
+    }, {
+      "uid" : "95d5ea253cc3def9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598618819820,
+        "stop" : 1598618889090,
+        "duration" : 69270
+      }
+    }, {
+      "uid" : "b67dba8e299d36e6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//div[ @class='s-confirm__btn-next b-btn b-btn--big b-btn--red b-btn--small-text' and contains(text(),'Перейти к оформлению')]' (tried for 15 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598617973028,
+        "stop" : 1598618014453,
+        "duration" : 41425
+      }
+    }, {
+      "uid" : "2c788a50ec9fc2b3",
+      "status" : "broken",
+      "statusDetails" : "Element <li class=\"\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 4272, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a1d18b7d-0a01-43d8-9ad9-c831a08e1db8",
+      "time" : {
+        "start" : 1598617591475,
+        "stop" : 1598617593574,
+        "duration" : 2099
+      }
+    }, {
+      "uid" : "a0f7685d69b672e3",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598617460183,
+        "stop" : 1598617473445,
+        "duration" : 13262
+      }
+    }, {
+      "uid" : "f138515af899494b",
+      "status" : "broken",
+      "statusDetails" : "Element <section class=\"step-head step-head--ending\"> is not clickable at point (960,236) because another element <div class=\"lds-css ng-scope loader\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 2932, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1bf03324-eeee-4f88-95b9-b1f0aa12690d",
+      "time" : {
+        "start" : 1598617209416,
+        "stop" : 1598617284856,
+        "duration" : 75440
+      }
+    }, {
+      "uid" : "b5ba8241840529c5",
+      "status" : "broken",
+      "statusDetails" : "Element <div class=\"b-btn b-btn--red b-btn--next\"> is not clickable at point (1464,1024) because another element <section class=\"e-b-m\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10044, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 568b904c-f300-4abe-9d01-341988844368",
+      "time" : {
+        "start" : 1598616905912,
+        "stop" : 1598616955096,
+        "duration" : 49184
+      }
+    }, {
+      "uid" : "55fb1ac891649740",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598616059234,
+        "stop" : 1598616073559,
+        "duration" : 14325
+      }
+    }, {
+      "uid" : "38375c20c9e2486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598615963456,
+        "stop" : 1598616034389,
+        "duration" : 70933
+      }
+    }, {
+      "uid" : "384b125be831421e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6288, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 9c599fb6-72b4-45e0-aefe-9fb92c43cfcf",
+      "time" : {
+        "start" : 1598599805452,
+        "stop" : 1598599894419,
+        "duration" : 88967
+      }
+    }, {
+      "uid" : "6868bdaacc3ace7f",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598599720902,
+        "stop" : 1598599733726,
+        "duration" : 12824
+      }
+    }, {
+      "uid" : "87027bcf5ea7771b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8176, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: cb921290-f8d4-491c-9efb-267eb37ecb5c",
+      "time" : {
+        "start" : 1598599608562,
+        "stop" : 1598599694221,
+        "duration" : 85659
+      }
+    }, {
+      "uid" : "450e6f7165898ca6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8456, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c9abf003-048b-4cab-839c-c939d9c112fb",
+      "time" : {
+        "start" : 1598599508943,
+        "stop" : 1598599593637,
+        "duration" : 84694
+      }
+    }, {
+      "uid" : "5a17ca4e06098c26",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 12172, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d9bb66da-73f9-492a-9cc1-55326341f63b",
+      "time" : {
+        "start" : 1598599399450,
+        "stop" : 1598599489498,
+        "duration" : 90048
+      }
+    }, {
+      "uid" : "33bf1080c3dd1ed",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6104, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6d2374e2-a63a-4324-82b3-24941612e2ec",
+      "time" : {
+        "start" : 1598599283164,
+        "stop" : 1598599377644,
+        "duration" : 94480
+      }
+    }, {
+      "uid" : "316304a0a920cbbd",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598599251652,
+        "stop" : 1598599266394,
+        "duration" : 14742
+      }
+    }, {
+      "uid" : "9cb1161403660f59",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598598716770,
+        "stop" : 1598598729786,
+        "duration" : 13016
+      }
+    }, {
+      "uid" : "854de2e0dae24978",
+      "status" : "broken",
+      "statusDetails" : "Element <li class=\"\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 11508, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7b9db03e-293c-43c7-8f83-166389e64929",
+      "time" : {
+        "start" : 1598598695031,
+        "stop" : 1598598696113,
+        "duration" : 1082
+      }
+    }, {
+      "uid" : "f28bb8463256b580",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598598654021,
+        "stop" : 1598598667330,
+        "duration" : 13309
+      }
+    }, {
+      "uid" : "980a72a99c691d3d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5524, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 146992dd-7233-47a5-81dc-aae9f5094831",
+      "time" : {
+        "start" : 1598598216250,
+        "stop" : 1598598312717,
+        "duration" : 96467
+      }
+    }, {
+      "uid" : "db6cf1f6dd5fabda",
+      "status" : "broken",
+      "statusDetails" : "Element <li class=\"\"> could not be scrolled into view\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 716, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b790affb-508c-4908-90cc-c0daf0cb5127",
+      "time" : {
+        "start" : 1598598198862,
+        "stop" : 1598598200058,
+        "duration" : 1196
+      }
+    }, {
+      "uid" : "6d3a8082a4e9cc61",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@class='lds-css ng-scope loader'] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UM56MIO', ip: '192.168.31.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 79.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200720193547, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 2364, moz:profile: C:\\Users\\i.gubenko\\AppData\\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(manual, http=desktop-..., rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: dfe335fc-6f8e-475b-939a-57172e0241bb",
+      "time" : {
+        "start" : 1598598075869,
+        "stop" : 1598598176490,
+        "duration" : 100621
+      }
+    }, {
+      "uid" : "7e0b9b2682d10a13",
+      "status" : "broken",
+      "statusDetails" : "/ by zero",
+      "time" : {
+        "start" : 1598598039602,
+        "stop" : 1598598053394,
+        "duration" : 13792
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e1a405ef2e87346.json",
+  "parameterValues" : [ ]
+}

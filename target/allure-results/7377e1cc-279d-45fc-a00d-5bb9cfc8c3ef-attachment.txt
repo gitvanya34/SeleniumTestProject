@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/passengers/update/86264/711959
+{"error":{"error_code":100,"error_msg":"Один из необходимых параметров был не передан или неверен","request_params":{"mindboxID":"470348"}}}
+null

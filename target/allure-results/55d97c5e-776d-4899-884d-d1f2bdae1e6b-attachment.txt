@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/one/80416
+{"result":"OK","data":{"id":80416,"number":"ПК-00054140","time":1599031486,"status":12,"crmID":"148063","bookedTo":1599033286,"cruise":9644,"cities":[100500,30,8,10,2,5,30],"promocode":null,"cruiseName":"В глубь веков","motorshipName":"Михаил Фрунзе","cityStart":30,"cityEnd":30,"cityUturn":10,"dateStart":1599469200,"dateEnd":1599924600,"comment":null,"groupName":null,"passengers":2,"accountable":null,"owner":701297,"agency":null,"updatedAt":1599031512,"paymentDenied":0,"price":8040000,"registrationTime":1599462000,"paymentAmount":8040000}}
+null

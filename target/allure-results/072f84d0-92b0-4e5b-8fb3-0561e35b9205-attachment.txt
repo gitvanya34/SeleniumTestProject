@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/cancel/82813
+{"result":"OK","updatedAt":1599050880}
+null

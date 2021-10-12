@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/orders/set-owner/85294
+{"result":"OK","data":{"id":85294,"number":"O-5f50a70e6cc6f","status":12}}
+null

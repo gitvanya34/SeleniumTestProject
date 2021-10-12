@@ -1,0 +1,3 @@
+https://api-crs.vodohod.com/ru/users/check-email
+{"result":"OK","data":{"id":701297,"uuid":"e1e638de0ec6d2411ecfb94bc3db6a1c","crmID":"547101","mindboxID":"453704","1CID":"ПК-440509"}}
+null
